@@ -1,0 +1,25 @@
+# Site name
+site_name: GreenGorych
+
+# Site URL
+site_url: https://greengorych.io
+
+# Theme settings
+theme:
+  # Theme name
+  name: material
+
+# Plugins settings
+plugins:
+  # Blog plugin settings
+  - blog:
+      # Enable blog plugin
+      enabled: true
+      # Directory with blog posts
+      blog_dir: .
+      # URL pattern for blog posts
+      post_url_format: "blog/{slug}"
+      # Show blog post read time
+      post_readtime: true
+      # Enable blog archive
+      archive: true
