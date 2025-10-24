@@ -37,6 +37,10 @@ theme:
     text: Roboto
     # Code blocks font
     code: Roboto Mono
+  # Site language
+  language: en
+  # Site language direction
+  direction: ltr
 
 # Plugins settings
 plugins:
