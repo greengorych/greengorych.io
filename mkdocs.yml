@@ -31,6 +31,12 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+  # Font settings
+  font:
+    # Text font
+    text: Roboto
+    # Code blocks font
+    code: Roboto Mono
 
 # Plugins settings
 plugins:
