@@ -5,7 +5,9 @@ site_name: GreenGorych
 site_url: https://greengorych.io
 
 # Copyright setting
-copyright: © 2025 Sergei Tilipin. Texts licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>, code examples under <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>.
+copyright: >
+  © 2025 Sergei Tilipin. Texts licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>, code examples under <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>.
+  <a href="#__consent">Change cookie settings.</a>
 
 # Theme settings
 theme:
@@ -59,6 +61,27 @@ plugins:
 
 # Additional settings
 extra:
+  # Cookie consent configuration
+  consent:
+    # Title displayed in the cookie consent banner
+    title: Cookie consent
+    # Description text shown in the cookie consent banner
+    description: >-
+      We use cookies to remember your visits and preferences, and to understand how you interact with the site.
+      Your consent helps us improve the content and make this blog more useful.
+    # Definition of cookies categories used by the site
+    cookies:
+      # Analytics cookies settings
+      analytics:
+        # Analytics service
+        name: Google Analytics
+        # Whether analytics cookies are enabled by default
+        checked: false
+    # List of action buttons in the consent banner
+    actions:
+      - accept
+      - reject
+      - manage
   # Analytics configuration
   analytics:
     # Analytics provider
