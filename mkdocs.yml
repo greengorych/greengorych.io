@@ -56,3 +56,12 @@ plugins:
       post_readtime: true
       # Enable blog archive
       archive: true
+
+# Additional settings
+extra:
+  # Analytics configuration
+  analytics:
+    # Analytics provider
+    provider: google
+    # Google Analytics tag ID
+    property: G-QMWC3TXEVK
