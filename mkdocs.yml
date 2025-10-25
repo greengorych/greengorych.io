@@ -76,7 +76,7 @@ extra:
         # Analytics service
         name: Google Analytics
         # Whether analytics cookies are enabled by default
-        checked: false
+        checked: true
     # List of action buttons in the consent banner
     actions:
       - accept
