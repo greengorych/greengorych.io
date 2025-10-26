@@ -13,6 +13,13 @@ copyright: >
 theme:
   # Theme name
   name: material
+  features:
+    # Show search suggestions
+    - search.suggest
+    # Highlight matching searching terms
+    - search.highlight
+    # Add a button to share the current search URL
+    - search.share
   # Color palette settings
   palette:
     # Palette toggle for automatic mode
@@ -58,6 +65,22 @@ plugins:
       post_readtime: true
       # Enable blog archive
       archive: true
+  # Search plugin settings
+  - search:
+      # Enable search plugin
+      enabled: true
+      # Search language
+      lang: en
+      # Search separators (regular expression for splitting text into tokens)
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+      # Search pipeline with text processing stages
+      pipeline:
+        # Reduces words to their base form
+        - stemmer
+        # Removes common stop words
+        - stopWordFilter
+        # Trims punctuation and special characters
+        - trimmer
 
 # Additional settings
 extra:
