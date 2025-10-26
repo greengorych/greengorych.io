@@ -1,4 +1,8 @@
 {
+  "yaml.customTags": [
+    "!ENV scalar",
+    "!ENV sequence"
+  ],
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
