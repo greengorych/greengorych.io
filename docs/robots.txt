@@ -1,8 +1,8 @@
 {%- if config.extra.environment == "production" -%}
 User-agent: *
 Allow: /
-Sitemap: {{ config.site_url }}/sitemap.xml
-Sitemap: {{ config.site_url }}/sitemap.xml.gz
+Sitemap: {{ config.site_url }}sitemap.xml
+Sitemap: {{ config.site_url }}sitemap.xml.gz
 {%- else -%}
 User-agent: *
 Disallow: /
