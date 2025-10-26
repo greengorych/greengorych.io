@@ -37,6 +37,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build site
+        env:
+          ENV: ${{ vars.ENV }}
         run: |
           mkdocs build --clean --site-dir ${{ vars.SITE_DIR }}
 
