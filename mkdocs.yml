@@ -116,6 +116,14 @@ extra:
   environment: !ENV ENV
   # Generator notice
   generator: true
+  # Social links
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/greengorych
+      name: greengorych on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/greengorych
+      name: greengorych on LinkedIn
 # Additional templates
 extra_templates:
   # Template robots.txt
