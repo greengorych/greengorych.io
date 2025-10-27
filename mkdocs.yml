@@ -114,6 +114,8 @@ extra:
     property: G-QMWC3TXEVK
   # Environment variable
   environment: !ENV ENV
+  # Generator notice
+  generator: true
 # Additional templates
 extra_templates:
   # Template robots.txt
