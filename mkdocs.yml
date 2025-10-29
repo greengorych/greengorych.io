@@ -55,8 +55,6 @@ theme:
     - toc.integrate
   # Color palette settings
   palette:
-    # Autohide header when scrolling
-    - header.autohide
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       scheme: default
