@@ -15,6 +15,8 @@ theme:
   name: material
   # Theme features
   features:
+    # Automatically hide the header when scrolling
+    - header.autohide
     # Show search suggestions
     - search.suggest
     # Highlight matching searching terms
