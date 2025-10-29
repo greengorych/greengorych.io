@@ -17,12 +17,42 @@ theme:
   features:
     # Automatically hide the header when scrolling
     - header.autohide
+    # Expand all navigation sections by default
+    # - navigation.expand
+    # Use section index pages
+    # - navigation.indexes
+    # Enable instant loading between pages
+    - navigation.instant
+    # Enable instant prefetching (preload linked pages)
+    # - navigation.instant.prefetch
+    # Enable instant previews
+    # - navigation.instant.preview
+    # Show a progress indicator during page loads
+    - navigation.instant.progress
+    # Display the navigation path (breadcrumbs)
+    # - navigation.path
+    # Prune navigation to only show relevant sections
+    # - navigation.prune
+    # Group pages by navigation sections
+    # - navigation.sections
+    # Display navigation tabs
+    # - navigation.tabs
+    # Make navigation tabs sticky on scroll
+    # - navigation.tabs.sticky
+    # Show a back-to-top button
+    - navigation.top
+    # Track the active anchor in navigation
+    - navigation.tracking
     # Show search suggestions
     - search.suggest
     # Highlight matching searching terms
     - search.highlight
     # Add a button to share the current search URL
     - search.share
+    # Follow the active anchor in the table of contents
+    - toc.follow
+    # Integrate table of contents into the navigation sidebar
+    - toc.integrate
   # Color palette settings
   palette:
     # Autohide header when scrolling
