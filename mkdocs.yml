@@ -17,8 +17,8 @@ theme:
   features:
     # Automatically hide the header when scrolling
     - header.autohide
-    # Expand all navigation sections by default
-    # - navigation.expand
+    # Expand navigation sections
+    - navigation.expand
     # Use section index pages
     # - navigation.indexes
     # Enable instant loading between pages
@@ -97,7 +97,7 @@ plugins:
       # Show blog post read time
       post_readtime: true
       # Enable blog archive
-      archive: true
+      archive: false
   # Search plugin settings
   - search:
       # Enable search plugin
