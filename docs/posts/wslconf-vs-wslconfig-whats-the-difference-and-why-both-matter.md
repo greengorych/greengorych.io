@@ -1,6 +1,8 @@
 ---
 draft: false
 date: 2025-10-28
+authors:
+  - greengorych
 ---
 
 # wsl.conf vs .wslconfig: What’s the Difference and Why Both Matter

@@ -90,6 +90,22 @@ plugins:
   - blog:
       # Enable blog plugin
       enabled: true
+      # Enables or disables showing authors in blog posts
+      authors: true
+      # Configuration with blog post authors settings
+      authors_file: "{blog}/.authors.yml"
+      # Enables or disables authors profiles (Insiders version only)
+      # authors_profiles: true
+      # Authors profile name (Insiders version only)
+      # authors_profiles_name: Authors
+      # Enables or disables authors profiles pagination (Insiders version only)
+      # authors_profiles_pagination: false
+      # Authors profiles pagination per page (Insiders version only)
+      # authors_profiles_pagination_per_page: 5
+      # Enables or disables showing authors table of contents (Insiders version only)
+      # authors_profiles_toc: false
+      # Defines authors profiles URL format (Insiders version only)
+      # authors_profiles_url_format: "author/{slug}"
       # Directory with blog posts
       blog_dir: .
       # URL pattern for blog posts
