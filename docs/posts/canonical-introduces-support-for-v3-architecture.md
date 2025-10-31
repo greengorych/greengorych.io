@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2025-10-31
 authors:
   - greengorych
