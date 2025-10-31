@@ -113,6 +113,7 @@ plugins:
       # List of allowed categories
       categories_allowed:
         - General
+        - Ubuntu
         - WSL
       # Specifies the name of the category section
       categories_name: Categories
