@@ -8,7 +8,7 @@ categories:
   - WSL
 ---
 
-# Canonical Introduces Support for v3 Architecture
+# Canonical Introduces Support for v3 Architecture Packages
 
 Canonical has [announced](https://discourse.ubuntu.com/t/introducing-architecture-variants-amd64v3-now-available-in-ubuntu-25-10/71312?utm_source=chatgpt.com) support for packages optimized for the **v3** CPU architecture. Starting with **Ubuntu 25.10** (currently in testing), it’s now possible to install and update packages built for this architecture.
 
