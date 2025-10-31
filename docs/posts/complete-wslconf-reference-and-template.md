@@ -3,6 +3,8 @@ draft: false
 date: 2025-10-30
 authors:
   - greengorych
+categories:
+  - WSL
 ---
 
 # Complete wsl.conf Reference and Template
@@ -110,7 +112,7 @@ root=/mnt/
 
 # Automatic configuration /etc/ld.so.conf.d/ld.wsl.conf generation
 # Available in: WSL 2
-# Dependencies: None
+# Dependencies: automount.enabled=true
 # Default: true
 # Values:
 # - true
@@ -126,15 +128,6 @@ ldconfig=true
 # Value: Any valid hostname
 # hostname=
 
-# Automatically creates /etc/resolv.conf on each launch
-# Available in: WSL 1/2
-# Dependencies: None
-# Default: true
-# Values:
-# - true
-# - false
-generateResolvConf=true
-
 # Automatically creates /etc/hosts on each launch
 # Available in: WSL 1/2
 # Dependencies: None
@@ -143,6 +136,15 @@ generateResolvConf=true
 # - true
 # - false
 generateHosts=true
+
+# Automatically creates /etc/resolv.conf on each launch
+# Available in: WSL 1/2
+# Dependencies: None
+# Default: true
+# Values:
+# - true
+# - false
+generateResolvConf=true
 
 [gpu]
 
