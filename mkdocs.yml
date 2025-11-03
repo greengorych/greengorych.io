@@ -108,6 +108,8 @@ plugins:
       # authors_profiles_url_format: "author/{slug}"
       # Directory with blog posts
       blog_dir: .
+      #
+      blog_toc: false
       # Enables or disables categories
       categories: true
       # List of allowed categories
@@ -135,10 +137,34 @@ plugins:
       categories_toc: false
       # Category pages URL pattern
       categories_url_format: "category/{slug}"
-      # URL pattern for blog posts
-      post_url_format: "blog/{slug}"
+      # Blog posts date format
+      post_date_format: long
+      # Blog posts directory
+      post_dir: "{blog}/posts"
+      # Sets a required or optional post excerpt
+      post_excerpt: required
+      # Sets the number of authors in a post excerpt
+      post_excerpt_max_authors: 1
+      # Sets the number of categories in a post excerpt
+      post_excerpt_max_categories: 2
+      # Sets the separator to define the post excerpt
+      post_excerpt_separator: <!-- more -->
       # Show blog post read time
       post_readtime: true
+      # Sets the number of words read per minute.
+      post_readtime_words_per_minute: 300
+      # Converts blog posts page URLs to uppercase or lowercase
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      # Sets the slug separator for blog post URLs
+      post_slugify_separator: "-"
+      # URLs date pattern for blog posts
+      # post_url_date_format: yyyy/MM/dd
+      # URLs pattern for blog posts
+      post_url_format: "blog/{slug}"
+      # Sets the number of categories included in the blog post URL
+      post_url_max_categories: 2
       # Enable blog archive
       archive: false
   # Search plugin settings
