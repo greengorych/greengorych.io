@@ -140,7 +140,7 @@ plugins:
       # Blog posts date format
       post_date_format: long
       # Blog posts directory
-      post_dir: "{blog}/posts"
+      post_dir: "posts"
       # Sets a required or optional post excerpt
       post_excerpt: required
       # Sets the number of authors in a post excerpt
