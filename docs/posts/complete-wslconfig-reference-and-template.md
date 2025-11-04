@@ -5,6 +5,8 @@ authors:
   - greengorych
 categories:
   - WSL
+description: >-
+    A complete reference and ready-to-use template for .wslconfig, including descriptions, dependencies, available values, and defaults for each setting.
 ---
 
 # Complete .wslconfig Reference and Template

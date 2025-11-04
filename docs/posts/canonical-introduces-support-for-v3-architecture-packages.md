@@ -6,6 +6,8 @@ authors:
 categories:
   - Ubuntu
   - WSL
+description: >-
+  Canonical introduces support for v3 CPU architecture packages in Ubuntu 25.10, enabling improved performance on updated systems.
 ---
 
 # Canonical Introduces Support for v3 Architecture Packages

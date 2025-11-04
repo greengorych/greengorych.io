@@ -5,6 +5,8 @@ authors:
   - greengorych
 categories:
   - WSL
+description: >-
+  The key differences between .wslconfig and wsl.conf WSL configuration files, and why both are essential for managing the WSL environment.
 ---
 
 # wsl.conf vs .wslconfig: What’s the Difference and Why Both Matter

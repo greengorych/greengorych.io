@@ -5,6 +5,8 @@ authors:
   - greengorych
 categories:
   - General
+description: >-
+  The story about how this blog began, from exploring WSL and automation to sharing knowledge and practical experience.
 ---
 
 # About the Blog
