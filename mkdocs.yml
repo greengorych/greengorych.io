@@ -176,15 +176,7 @@ plugins:
       post_url_max_categories: 2
       # Enable blog archive
       archive: false
-  - rss:
-      enabled: true
-      # comments_path: "#__comments"
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
-      match_path: blog/posts/.*
+
   # Search plugin settings
   - search:
       # Enable search plugin
