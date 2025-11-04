@@ -1,3 +1,10 @@
+# Site author
+site_author: Sergei Tilipin
+
+# Site description
+site_description: >-
+  Blog about automation, configuration, and optimization of WSL environments and Linux systems
+
 # Site name
 site_name: GreenGorych
 
@@ -6,7 +13,9 @@ site_url: https://greengorych.io
 
 # Copyright setting
 copyright: >-
-  © 2025 Sergei Tilipin. Texts licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>, code examples under <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>.
+  © 2025 Sergei Tilipin.
+  Texts licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>,
+  code examples under <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>.
   <a href="#__consent">Change cookie settings.</a>
 
 # Theme settings
@@ -167,6 +176,15 @@ plugins:
       post_url_max_categories: 2
       # Enable blog archive
       archive: false
+  - rss:
+      enabled: true
+      # comments_path: "#__comments"
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+      match_path: blog/posts/.*
   # Search plugin settings
   - search:
       # Enable search plugin
