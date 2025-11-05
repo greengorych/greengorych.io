@@ -37,7 +37,7 @@ If the output includes the line `x86-64-v3 (supported, searched)`, it means your
 
 Example output:
 
-```bash
+```text
 x86-64-v4
 x86-64-v3 (supported, searched)
 x86-64-v2 (supported, searched)
@@ -51,7 +51,7 @@ echo 'APT::Architecture-Variants "amd64v3";' | sudo tee /etc/apt/apt.conf.d/99en
 
 Or modify the default repository settings in `/etc/apt/sources.list.d/ubuntu.sources`:
 
-```bash
+```ini
 Types: deb
 URIs: http://archive.ubuntu.com/ubuntu/
 Suites: questing questing-updates questing-backports
@@ -80,7 +80,6 @@ Upgrade the system:
 ```bash
 sudo apt upgrade
 ```
-
 
 During the upgrade, may see a message about some packages being "downgraded". This is only a mismatch and will be fixed by the release of Ubuntu 26.04.
 
