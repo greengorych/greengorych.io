@@ -24,6 +24,12 @@ theme:
   name: material
   # Theme features
   features:
+    # Enables adding comments to sections of a code block
+    - content.code.annotate
+    # Enables the button to copy a block of code
+    - content.code.copy
+    # Enables the button for selecting lines in a code block (Insiders version only)
+    # - content.code.select
     # Automatically hide the header when scrolling
     - header.autohide
     # Expand navigation sections
@@ -235,6 +241,24 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/greengorych
       name: greengorych on LinkedIn
+
+# Markdown extension settings
+markdown_extensions:
+  # Enables advanced syntax highlighting features
+  - pymdownx.highlight:
+      # Adds clickable anchors to line numbers
+      anchor_linenums: true
+      # Enables to wrap each line in a <span> element for styling
+      line_spans: __span
+      # Adds a CSS class with the language name for custom styling
+      pygments_lang_class: true
+  # Enables highlighting of inline code embedded in text
+  - pymdownx.inlinehilite
+  # Enables to directly embed external files or their fragments
+  - pymdownx.snippets
+  # Enables extended support for fenced code blocks, including nested ones
+  - pymdownx.superfences
+
 # Additional templates
 extra_templates:
   # Template robots.txt
