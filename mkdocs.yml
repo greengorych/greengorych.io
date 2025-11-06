@@ -105,8 +105,22 @@ theme:
 plugins:
   # Blog plugin settings
   - blog:
-      # Enable blog plugin
-      enabled: true
+      # Enables or disables blog archive
+      archive: true
+      # Specifies archive sections date format
+      archive_date_format: yyyy
+      # Specifies the name of the archive section
+      archive_name: Archive
+      # Enables or disables archive pagination (Insiders version only)
+      # archive_pagination: false
+      # Specifies archive pagination per page (Insiders version only)
+      # archive_pagination_per_page: 5
+      # Shows post titles on archive section
+      archive_toc: false
+      # Specifies archive URL format
+      archive_url_format: "archive/{date}"
+      # Specifies archive URL date format
+      # archive_url_date_format: yyyy
       # Enables or disables showing authors in blog posts
       authors: true
       # Configuration with blog post authors settings
@@ -125,7 +139,7 @@ plugins:
       # authors_profiles_url_format: "author/{slug}"
       # Directory with blog posts
       blog_dir: .
-      #
+      # Shows post titles on blog section
       blog_toc: false
       # Enables or disables categories
       categories: true
@@ -154,6 +168,8 @@ plugins:
       categories_toc: false
       # Category pages URL pattern
       categories_url_format: "category/{slug}"
+      # Enable blog plugin
+      enabled: true
       # Blog posts date format
       post_date_format: long
       # Blog posts directory
@@ -182,9 +198,6 @@ plugins:
       post_url_format: "blog/{slug}"
       # Sets the number of categories included in the blog post URL
       post_url_max_categories: 2
-      # Enable blog archive
-      archive: false
-
   # Search plugin settings
   - search:
       # Enable search plugin
