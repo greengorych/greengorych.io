@@ -51,7 +51,7 @@ theme:
     # Prune navigation to only show relevant sections
     # - navigation.prune
     # Group pages by navigation sections
-    # - navigation.sections
+    - navigation.sections
     # Display navigation tabs
     # - navigation.tabs
     # Make navigation tabs sticky on scroll
@@ -115,7 +115,7 @@ plugins:
       # archive_pagination: false
       # Specifies archive pagination per page (Insiders version only)
       # archive_pagination_per_page: 5
-      # Shows post titles on archive section
+      # Shows post titles in archive section
       archive_toc: false
       # Specifies archive URL format
       archive_url_format: "archive/{date}"
