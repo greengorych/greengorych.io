@@ -34,6 +34,8 @@ theme:
     - header.autohide
     # Expand navigation sections
     - navigation.expand
+    # Enables or disables footer navigation
+    - navigation.footer
     # Use section index pages
     # - navigation.indexes
     # Enable instant loading between pages
