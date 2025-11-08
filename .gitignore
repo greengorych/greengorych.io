@@ -1,4 +1,5 @@
+.cache/
 .venv/
 site/
-*requirements*
-!requirements.txt
+requirements.in
+requirements.out
