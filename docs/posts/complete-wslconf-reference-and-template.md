@@ -1,6 +1,8 @@
 ---
 draft: false
-date: 2025-10-30
+date:
+  created: 2025-10-30
+  updated: 2025-11-08
 authors:
   - greengorych
 categories:
@@ -25,7 +27,7 @@ This template covers all the settings known to me, including:
 
 Each parameter is explicitly defined and has a default value, except for a few individual settings, `boot.command`, `network.hostname` and `user.default`, which do not have default values.
 
-```ini
+``` ini
 [boot]
 
 # Enables systemd support

@@ -1,6 +1,7 @@
 ---
 draft: false
-date: 2025-11-03
+date:
+  created: 2025-11-03
 authors:
   - greengorych
 categories:
@@ -25,7 +26,7 @@ This template covers all the settings known to me, including:
 
 Each parameter is explicitly defined and has a default value, except for settings that don't have it ​​or can't be set via configuration.
 
-```ini
+``` ini
 [general]
 
 # Absolute Windows path to the WSL distributions install folder

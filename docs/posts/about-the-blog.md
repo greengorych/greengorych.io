@@ -1,6 +1,7 @@
 ---
 draft: false
-date: 2025-10-24
+date:
+  created: 2025-10-24
 authors:
   - greengorych
 categories:

@@ -1,6 +1,8 @@
 ---
 draft: false
-date: 2025-10-31
+date:
+  created: 2025-10-31
+  updated: 2025-11-03
 authors:
   - greengorych
 categories:
@@ -29,7 +31,7 @@ However, this also makes the software incompatible with older CPUs that do not s
 
 Check CPU architecture:
 
-```bash
+``` bash
 ld.so --help | grep '\-v[0-9]'
 ```
 
@@ -37,7 +39,7 @@ If the output includes the line `x86-64-v3 (supported, searched)`, it means your
 
 Example output:
 
-```text
+``` text { .sh .no-copy }
 x86-64-v4
 x86-64-v3 (supported, searched)
 x86-64-v2 (supported, searched)
@@ -45,13 +47,13 @@ x86-64-v2 (supported, searched)
 
 Add the configuration:
 
-```bash
+``` bash
 echo 'APT::Architecture-Variants "amd64v3";' | sudo tee /etc/apt/apt.conf.d/99enable-amd64v3
 ```
 
 Or modify the default repository settings in `/etc/apt/sources.list.d/ubuntu.sources`:
 
-```ini
+``` ini
 Types: deb
 URIs: http://archive.ubuntu.com/ubuntu/
 Suites: questing questing-updates questing-backports
@@ -71,13 +73,13 @@ Enabled: yes
 
 Update package lists:
 
-```bash
+``` bash
 sudo apt update
 ```
 
 Upgrade the system:
 
-```bash
+``` bash
 sudo apt upgrade
 ```
 
