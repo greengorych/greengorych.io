@@ -3,7 +3,7 @@ site_author: Sergei Tilipin
 
 # Site description
 site_description: >-
-  Blog about automation, configuration, and optimization of WSL environments and Linux systems
+  Blog about automation, configuration, and optimization of WSL environments and Linux systems.
 
 # Site name
 site_name: GreenGorych
@@ -70,26 +70,48 @@ theme:
     - toc.follow
     # Integrate table of contents into the navigation sidebar
     - toc.integrate
-  # Color palette settings
+
+  # Theme color palette settings
   palette:
-    # Palette toggle for automatic mode
+    # Color palette configuration for automatic mode
     - media: "(prefers-color-scheme)"
-      scheme: default
+      # Toggle settings for automatic mode
       toggle:
-        icon: material/brightness-auto
+        # Icon displayed when automatic mode is selected
+        icon: material/link
+        # Tooltip shown when hovering over the toggle button
         name: Switch to light mode
-    # Palette toggle for light mode
+
+    # Color palette configuration for light mode
     - media: "(prefers-color-scheme: light)"
+      # Accent color for interactive elements (links, highlights, etc.)
+      accent: indigo
+      # Primary theme color used for header, footer, sidebar, etc.
+      primary: indigo
+      # Name of the light color scheme
       scheme: default
+      # Toggle settings for light mode
       toggle:
-        icon: material/brightness-7
+        # Icon displayed when light mode is selected
+        icon: material/toggle-switch
+        # Tooltip shown when hovering over the toggle button
         name: Switch to dark mode
-    # Palette toggle for dark mode
+
+    # Color palette configuration for dark mode
     - media: "(prefers-color-scheme: dark)"
+      # Accent color for interactive elements (links, highlights, etc.)
+      accent: indigo
+      # Primary theme color used for header, footer, sidebar, etc.
+      primary: black
+      # Name of the dark color scheme
       scheme: slate
+      # Toggle settings for dark mode
       toggle:
-        icon: material/brightness-4
+        # Icon displayed when dark mode is selected
+        icon: material/toggle-switch-off
+        # Tooltip shown when hovering over the toggle button
         name: Switch to system preference
+
   # Font settings
   font:
     # Text font
