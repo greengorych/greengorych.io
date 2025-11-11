@@ -12,7 +12,7 @@ description: >-
 
 # WSL Logging: Settings and Their Purpose
 
-The WSL 2 global [configuration](https://greengorych.io/blog/complete-wslconfig-reference-and-template/) file `.wslconfig` doesn’t clearly divide settings into sections. All but two belong to the `[wsl2]` section. I've grouped six parameters that are related to logging and will go through them in this post.
+The WSL 2 global [configuration](https://greengorych.io/blog/complete-wslconfig-reference-and-template/) file `.wslconfig` doesn’t clearly divide settings into sections. All but two belong to the `[wsl2]` section. I've grouped seven parameters that are related to logging and will go through them in this post.
 
 I mainly use these settings when testing kernel parameters or verifying configuration changes. It’s best to disable logging during normal operation to avoid unnecessary overhead.
 
@@ -131,3 +131,23 @@ telemetry=true
 To view what data is being collected by enabling **Turn on Diagnostic Data Viewer**: **Windows Settings → Privacy & Security → Diagnostic & feedback → View diagnostic data**, and installing the [Diagnostic Data Viewer](https://apps.microsoft.com/detail/9N8WTRRSQ8F7) app from the Microsoft Store.
 
 As with crash dumps, I disable this setting to reduce the amount of data stored and transmitted.
+
+## `hardwarePerformanceCounters`
+
+Enables hardware performance counters inside WSL instances.
+
+``` ini
+[wsl2]
+
+# Makes hardware performance counters available in WSL instances
+# Dependencies:
+# - Supported only on AMD64/x64
+# - Not available on ARM64
+# Default: true on AMD64, false on ARM64
+# Values:
+# - true
+# - false
+hardwarePerformanceCounters=true
+```
+
+By default, this is **enabled on AMD64/x64** systems and **disabled on ARM64**. When enabled, WSL instances can access performance counters for profiling or performance monitoring.
