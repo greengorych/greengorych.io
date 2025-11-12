@@ -22,6 +22,8 @@ copyright: >-
 theme:
   # Theme name
   name: material
+  # Site favicon
+  favicon: assets/images/leaf.svg
   # Theme features
   features:
     # Enables adding comments to sections of a code block
@@ -70,6 +72,11 @@ theme:
     - toc.follow
     # Integrate table of contents into the navigation sidebar
     - toc.integrate
+
+  # Icons settings
+  icon:
+    # Logo icon
+    logo: material/leaf
 
   # Theme color palette settings
   palette:
