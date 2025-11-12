@@ -72,11 +72,59 @@ theme:
     - toc.follow
     # Integrate table of contents into the navigation sidebar
     - toc.integrate
-
   # Icons settings
   icon:
+    # Admonition icons
+    admonition:
+      # Abstract icon
+      abstract: material/book-outline
+      # Bug icon
+      bug: material/bug-outline
+      # Danger icon
+      danger: material/skull-outline
+      # Example icon
+      example: material/flask-outline
+      # Failure icon
+      failure: material/close-octagon-outline
+      # Info icon
+      info: material/information-outline
+      # Note icon
+      note: material/note-text-outline
+      # Question icon
+      question: material/help-circle-outline
+      # Quote icon
+      quote: material/format-quote-close-outline
+      # Success icon
+      success: material/check-circle-outline
+      # Tip icon
+      tip: material/lightbulb-on-outline
+      # Warning icon
+      warning: material/alert-outline
+    # Interface icons
+    # Change language icon
+    # alternate: material/translate
+    # Close icon
+    close: material/close
+    # Edit current page icon
+    edit: material/file-edit-outline
     # Logo icon
     logo: material/leaf
+    # Mobile menu icon
+    menu: material/menu
+    # Next page in footer icon
+    next: material/arrow-right
+    # Previous page in footer icon
+    previous: material/arrow-left
+    # Header repository icon
+    repo: material/git
+    # Search icon
+    search: material/magnify
+    # Share search icon
+    share: material/share
+    # Back-to-top button icon
+    top: material/arrow-up
+    # View page source icon
+    view: material/file-eye-outline
 
   # Theme color palette settings
   palette:
