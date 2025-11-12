@@ -25,6 +25,7 @@ Currently available:
 
 Upcoming plans:
 
+- Adding the new `automount.cgroups` parameter in `wsl.conf` to configure the CGroup version, expected in the upcoming WSL release
 - Complete the review, add the remaining parameters to `.wslconfig`, and improve its structure
 - Resume work on the universal Out-of-Box Experience (OOBE) script
 - Review and document the Windows Terminal profile template `terminal-profile.json`
