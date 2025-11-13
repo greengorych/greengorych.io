@@ -188,32 +188,32 @@ plugins:
       archive_date_format: yyyy
       # Specifies the name of the archive section
       archive_name: Archive
-      # Enables or disables archive pagination (Insiders version only)
-      # archive_pagination: false
-      # Specifies archive pagination per page (Insiders version only)
-      # archive_pagination_per_page: 5
+      # Enables or disables archive pagination
+      archive_pagination: true
+      # Specifies archive pagination per page
+      archive_pagination_per_page: 5
       # Shows post titles in archive section
       archive_toc: false
       # Specifies archive URL format
       archive_url_format: "archive/{date}"
       # Specifies archive URL date format
-      # archive_url_date_format: yyyy
+      archive_url_date_format: yyyy
       # Enables or disables showing authors in blog posts
       authors: true
       # Configuration with blog post authors settings
       authors_file: "{blog}/.authors.yml"
-      # Enables or disables authors profiles (Insiders version only)
-      # authors_profiles: true
-      # Authors profile name (Insiders version only)
-      # authors_profiles_name: Authors
-      # Enables or disables authors profiles pagination (Insiders version only)
-      # authors_profiles_pagination: false
-      # Authors profiles pagination per page (Insiders version only)
-      # authors_profiles_pagination_per_page: 5
-      # Enables or disables showing authors table of contents (Insiders version only)
-      # authors_profiles_toc: false
-      # Defines authors profiles URL format (Insiders version only)
-      # authors_profiles_url_format: "author/{slug}"
+      # Enables or disables authors profiles
+      authors_profiles: false
+      # Authors profile name
+      authors_profiles_name: Authors
+      # Enables or disables authors profiles pagination
+      authors_profiles_pagination: false
+      # Authors profiles pagination per page
+      authors_profiles_pagination_per_page: 5
+      # Enables or disables showing authors table of contents
+      authors_profiles_toc: false
+      # Defines authors profiles URL format
+      authors_profiles_url_format: "author/{slug}"
       # Directory with blog posts
       blog_dir: .
       # Shows post titles on blog section
@@ -227,20 +227,20 @@ plugins:
         - WSL
       # Specifies the name of the category section
       categories_name: Categories
-      # Enables or disables pagination for category pages (Insiders version only)
-      # categories_pagination: false
-      # Sets the number of posts per category page in pagination (Insiders version only)
-      # categories_pagination_per_page: 5
+      # Enables or disables pagination for category pages
+      categories_pagination: true
+      # Sets the number of posts per category page in pagination
+      categories_pagination_per_page: 5
       # Converts category page URLs to uppercase or lowercase
       categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
       # Sets the slug separator for category URLs
       categories_slugify_separator: "-"
-      # Sets the category sorting rule (Insiders version only)
+      # Sets the category sorting rule
       # categories_sort_by: !!python/name:material.plugins.blog.view_post_count
       # Enables or disables reverse sorting of categories (Insiders version only)
-      # categories_sort_reverse: true
+      categories_sort_reverse: true
       # Shows post titles on categories (inherited from blog_toc if not set explicitly)
       categories_toc: false
       # Category pages URL pattern
