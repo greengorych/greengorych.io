@@ -247,6 +247,18 @@ plugins:
       categories_url_format: "category/{slug}"
       # Enable blog plugin
       enabled: true
+      # Enables or disables pagination
+      pagination: true
+      # Pagination per page
+      pagination_per_page: 5
+      # Defines pagination URL format
+      pagination_url_format: "page/{page}"
+      # Defines pagination makrup format
+      pagination_format: "~2~"
+      # Enables or disables single page pagination
+      pagination_if_single_page: false
+      # Display the content of the containing view on paginated pages
+      pagination_keep_content: true
       # Blog posts date format
       post_date_format: long
       # Blog posts directory
