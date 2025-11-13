@@ -30,8 +30,8 @@ theme:
     - content.code.annotate
     # Enables the button to copy a block of code
     - content.code.copy
-    # Enables the button for selecting lines in a code block (Insiders version only)
-    # - content.code.select
+    # Enables the button for selecting lines in a code block
+    - content.code.select
     # Automatically hide the header when scrolling
     - header.autohide
     # Expand navigation sections
@@ -39,19 +39,19 @@ theme:
     # Enables or disables footer navigation
     - navigation.footer
     # Use section index pages
-    # - navigation.indexes
+    - navigation.indexes
     # Enable instant loading between pages
     - navigation.instant
     # Enable instant prefetching (preload linked pages)
-    # - navigation.instant.prefetch
+    - navigation.instant.prefetch
     # Enable instant previews
     # - navigation.instant.preview
     # Show a progress indicator during page loads
     - navigation.instant.progress
     # Display the navigation path (breadcrumbs)
-    # - navigation.path
+    - navigation.path
     # Prune navigation to only show relevant sections
-    # - navigation.prune
+    - navigation.prune
     # Group pages by navigation sections
     - navigation.sections
     # Display navigation tabs
