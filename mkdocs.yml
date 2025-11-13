@@ -287,6 +287,20 @@ plugins:
       post_url_format: "blog/{slug}"
       # Sets the number of categories included in the blog post URL
       post_url_max_categories: 2
+
+  # Minify plugin setings
+  - minify:
+    # Enables o disables HTML minification
+    minify_html: true
+    # Enables o disables JavaScript minification
+    minify_js: true
+    # Enables o disables CSS minification
+    minify_css: true
+    # HTML minification options
+    htmlmin_opts:
+      # Enables o disables removal HTML comments
+      remove_comments: true
+
   # Search plugin settings
   - search:
       # Enable search plugin
