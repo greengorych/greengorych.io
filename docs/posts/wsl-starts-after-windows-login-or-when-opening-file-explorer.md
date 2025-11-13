@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date:
   created: 2025-11-13
 authors:
