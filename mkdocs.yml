@@ -102,7 +102,9 @@ theme:
       warning: material/alert-outline
     # Interface icons
     # Change language icon
-    # alternate: material/translate
+    alternate: material/translate
+    # Annotation icon
+    annotation: material/plus-circle-outline
     # Close icon
     close: material/close
     # Edit current page icon
