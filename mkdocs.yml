@@ -23,7 +23,7 @@ theme:
   # Theme name
   name: material
   # Site favicon
-  favicon: assets/images/logo.svg
+  favicon: assets/images/favicon.svg
   # Theme features
   features:
     # Enables adding comments to sections of a code block
