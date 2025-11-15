@@ -427,10 +427,10 @@ extra:
       link: https://www.linkedin.com/in/greengorych
       name: greengorych on LinkedIn
     - icon: fontawesome/solid/rss
-      link: https://greengorych.io/feed-rss.json
+      link: https://greengorych.io/rss-feed-created.xml
       name: RSS Feed
     - icon: material/code-json
-      link: https://greengorych.io/feed-json.json
+      link: https://greengorych.io/json-feed-created.json
       name: JSON Feed
 
 # Markdown extension settings
