@@ -2,6 +2,7 @@
 draft: false
 date:
   created: 2025-11-07
+  updated: 2025-11-07
 authors:
   - greengorych
 categories:
@@ -9,6 +10,7 @@ categories:
 description: >-
   Explanation of how instanceIdleTimeout and vmIdleTimeout in .wslconfig control WSL and instance shutdown behavior.
 ---
+
 # WSL Timeouts: What's the Difference and How to Use Them
 
 I recently published a post with my [template](https://greengorych.io/blog/complete-wslconfig-reference-and-template/) `.wslconfig` configuration file. But I don't think simply sharing the configuration is enough. From my experience, I know that information is better perceived when accompanied by real-world usage examples. So, I decided to write a series of posts explaining the settings in this file in more detail and providing examples of their use.

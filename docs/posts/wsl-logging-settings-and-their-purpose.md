@@ -2,12 +2,13 @@
 draft: false
 date:
   created: 2025-11-11
+  updated: 2025-11-11
 authors:
   - greengorych
 categories:
   - WSL
 description: >-
-  Explanation of how to use .wslconfig to manage WSL 2 logging, crash dumps, and telemetry collection.
+  Explanation of how to use .wslconfig to manage WSL 2 logging, crash dumps, hardware performance counters and telemetry collection.
 ---
 
 # WSL Logging: Settings and Their Purpose

@@ -2,7 +2,7 @@
 draft: false
 date:
   created: 2025-10-30
-  updated: 2025-11-08
+  updated: 2025-11-04
 authors:
   - greengorych
 categories:
