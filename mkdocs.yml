@@ -426,6 +426,12 @@ extra:
     - icon: fontawesome/brands/linkedin-in
       link: https://www.linkedin.com/in/greengorych
       name: greengorych on LinkedIn
+    - icon: fontawesome/solid/rss
+      link: https://greengorych.io/feed-rss.json
+      name: RSS Feed
+    - icon: material/code-json
+      link: https://greengorych.io/feed-json.json
+      name: JSON Feed
 
 # Markdown extension settings
 markdown_extensions:
