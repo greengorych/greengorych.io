@@ -350,13 +350,13 @@ plugins:
       # Filenames for generated feeds
       feeds_filenames:
         # JSON feed filename for created posts
-        json_created: json-feed.json
+        json_created: json-feed-created.json
         # JSON feed filename for updated posts
-        # json_updated: json-feed-updated.json
+        json_updated: json-feed-updated.json
         # RSS feed filename for created posts
-        rss_created: rss-feed.xml
+        rss_created: rss-feed-created.xml
         # RSS feed filename for updated posts
-        # rss_updated: rss-feed-updated.xml
+        rss_updated: rss-feed-updated.xml
       # Feed title (if disabled, the site title is used)
       # feed_title:
       # Feed TTL (in minutes)
