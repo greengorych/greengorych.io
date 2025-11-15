@@ -362,7 +362,7 @@ plugins:
       # Feed TTL (in minutes)
       feed_ttl: 1440
       # URL of the image used in the RSS feed
-      image: https://greengorych.io/assets/images/leaf.svg
+      image: https://greengorych.io/assets/images/logo.png
       # Enables or disables the JSON feed
       json_feed_enabled: true
       # Number of items included in feeds
