@@ -32,6 +32,12 @@ theme:
     - content.code.copy
     # Enables the button for selecting lines in a code block
     - content.code.select
+    # Enables footnote tooltips
+    - content.footnote.tooltips
+    # Enables content tabs link
+    - content.tabs.link
+    # Enables improved tooltips
+    - content.tooltips
     # Automatically hide the header when scrolling
     - header.autohide
     # Expand navigation sections
