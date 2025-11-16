@@ -35,11 +35,11 @@ theme:
     # Automatically hide the header when scrolling
     - header.autohide
     # Expand navigation sections
-    - navigation.expand
+    # - navigation.expand
     # Enables or disables footer navigation
     - navigation.footer
     # Use section index pages
-    - navigation.indexes
+    # - navigation.indexes
     # Enable instant loading between pages
     - navigation.instant
     # Enable instant prefetching (preload linked pages)
