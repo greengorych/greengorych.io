@@ -131,7 +131,7 @@ The value can be obtained in a running instance with:
 wslinfo --vm-id
 ```
 
-There is a caveat involving swap files, as well as [crash dumps](https://greengorych.io/blog/wsl-logging-settings-and-their-purpose/#maxcrashdumpcount): if WSL terminates unexpectedly, the file will not be deleted. Since the `WSL VM ID` is unique for each WSL 2 session, a new swap file in a new folder will be created after a restart.
+There is a caveat involving swap files, as well as [crash dumps](https://greengorych.io/blog/wsl-logging-settings-and-their-purpose/#maxcrashdumpcount){ data-preview }: if WSL terminates unexpectedly, the file will not be deleted. Since the `WSL VM ID` is unique for each WSL 2 session, a new swap file in a new folder will be created after a restart.
 ## Experimental Settings
 
 Two additional experimental settings located in the `[experimental]` section also affect hardware resource usage. Like the main settings, they control the use of hardware resources.
