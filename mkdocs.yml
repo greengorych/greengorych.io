@@ -11,6 +11,15 @@ site_name: GreenGorych
 # Site URL
 site_url: https://greengorych.io
 
+# Repository URL
+# repo_url: https://github.com/greengorych/greengorych.io
+
+# Repository name
+# repo_name: greengorych/greengorych.io
+
+# Repository edit URL
+# edit_uri: edit/main/docs/
+
 # Copyright setting
 copyright: >-
   © 2025 Sergei Tilipin.
@@ -26,6 +35,10 @@ theme:
   favicon: assets/images/favicon.svg
   # Theme features
   features:
+    # Enables repository code edit icon
+    # - content.action.edit
+    # Enables repository code view icon
+    # - content.action.view
     # Enables adding comments to sections of a code block
     - content.code.annotate
     # Enables the button to copy a block of code
