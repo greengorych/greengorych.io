@@ -66,4 +66,18 @@ The `wsl.conf` file allows configuration of:
 - Windows interoperability settings.
 - Default user definition.
 
+## Comparative Table
+
+| Setting                 | .wslconfig                                                    | wsl.conf                                             |
+| ----------------------- | ------------------------------------------------------------- | ---------------------------------------------------- |
+| Scope                   | Global configuration file                                     | Local configuration file                             |
+| Applies to              | All installed distributions and running instances under WSL 2 | A specific instance                                  |
+| WSL version support     | WSL 2 only and does not affect WSL 1                          | WSL 1 and WSL 2 (some options only WSL 2)            |
+| Availability depends on | WSL release, operating system, processor architecture         | WSL version and release                              |
+| Location                | `C:\Users\<Username>\.wslconfig`                              | `/etc/wsl.conf`                                      |
+| Presence by default     | Not presen                                                    | Included in every distribution (only a few settings) |
+| Configuration format    | INI format, grouped by sections                               | INI format, grouped by sections                      |
+| Changes takes effect    | After restarting WSL                                          | After restarting the instance                        |
+| Configurable via GUI    | Some parameters can be configured via WSL Settings GUI        | No GUI configuration                                 |
+
 Together, these two files provide the means to manage WSL behavior and capabilities, from global virtual machine settings to local instance-specific configurations.
