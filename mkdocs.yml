@@ -261,7 +261,7 @@ plugins:
       # Sets the category sorting rule
       # categories_sort_by: !!python/name:material.plugins.blog.view_post_count
       # Enables or disables reverse sorting of categories (Insiders version only)
-      categories_sort_reverse: true
+      categories_sort_reverse: false
       # Shows post titles on categories (inherited from blog_toc if not set explicitly)
       categories_toc: false
       # Category pages URL pattern
