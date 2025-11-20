@@ -439,16 +439,16 @@ extra:
   generator: true
   # Social links
   social:
-    - icon: octicons/mail-24
+    - icon: material/gmail
       link: "mailto:&#103;&#114;&#101;&#101;&#110;&#103;&#111;&#114;&#121;&#99;&#104;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
       name: email
-    - icon: fontawesome/brands/github
+    - icon: material/github
       link: https://github.com/greengorych
       name: greengorych on GitHub
     - icon: fontawesome/brands/linkedin-in
       link: https://www.linkedin.com/in/greengorych
       name: greengorych on LinkedIn
-    - icon: fontawesome/solid/rss
+    - icon: material/rss
       link: https://greengorych.io/rss-feed-created.xml
       name: RSS Feed
     - icon: material/code-json
