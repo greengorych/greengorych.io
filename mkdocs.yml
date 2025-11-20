@@ -436,7 +436,7 @@ extra:
   # Environment variable
   environment: !ENV ENV
   # Generator notice
-  generator: true
+  generator: false
   # Social links
   social:
     - icon: material/gmail
