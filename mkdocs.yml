@@ -74,7 +74,7 @@ theme:
     # Group pages by navigation sections
     - navigation.sections
     # Display navigation tabs
-    # - navigation.tabs
+    - navigation.tabs
     # Make navigation tabs sticky on scroll
     # - navigation.tabs.sticky
     # Show a back-to-top button
