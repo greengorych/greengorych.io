@@ -1,3 +1,8 @@
+---
+description: >-
+  Licensing information for the materials on the site: texts and articles are distributed under CC BY-SA 4.0, and code examples and configurations are licensed under the MIT license.
+---
+
 # Licenses
 
 ## Texts and articles
