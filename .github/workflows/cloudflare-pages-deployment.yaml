@@ -39,6 +39,7 @@ jobs:
       - name: Build site
         env:
           ENV: ${{ vars.ENV }}
+          ENABLE_GROUP_PLUGINS: ${{ vars.ENABLE_GROUP_PLUGINS }}
         run: |
           mkdocs build --clean --site-dir ${{ vars.SITE_DIR }}
 
