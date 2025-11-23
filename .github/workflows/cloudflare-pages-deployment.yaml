@@ -43,6 +43,10 @@ jobs:
         run: |
           mkdocs build --clean --site-dir ${{ vars.SITE_DIR }}
 
+      - name: Generate IndexNow API Key File
+        run: |
+          echo "${{ secrets.INDEXNOW_API_KEY }}" > ${{ vars.SITE_DIR }}/${{ secrets.INDEXNOW_API_KEY }}.txt
+
       - name: Deploy site to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
