@@ -309,18 +309,90 @@ plugins:
       # Sets the number of categories included in the blog post URL
       post_url_max_categories: 2
 
-  # Minify plugin setings
-  - minify:
-      # Enables o disables HTML minification
-      minify_html: true
-      # Enables o disables JavaScript minification
-      minify_js: true
-      # Enables o disables CSS minification
-      minify_css: true
-      # HTML minification options
-      htmlmin_opts:
-        # Enables o disables removal HTML comments
-        remove_comments: true
+  # Group plugin setiings
+  - group:
+      # Specifies the rule to enable plugins
+      enabled: !ENV ENABLE_GROUP_PLUGINS
+
+      # List of plugins
+      plugins:
+        # Minify plugin setings
+        - minify:
+            # Enables o disables HTML minification
+            minify_html: true
+            # Enables o disables JavaScript minification
+            minify_js: true
+            # Enables o disables CSS minification
+            minify_css: true
+            # HTML minification options
+            htmlmin_opts:
+              # Enables o disables removal HTML comments
+              remove_comments: true
+
+        # RSS plugin settings
+        - rss:
+            # Number of characters for automatic announcement trimming
+            # abstract_chars_count: 160
+            # Delimiter used to define the announcement boundary
+            abstract_delimiter: <!-- more -->
+            # Source fields for categories
+            categories:
+              - categories
+            # Path to the comments section
+            # comments_path: "#__comments"
+            # Metadata date configuration
+            date_from_meta:
+              # Field containing the creation date
+              as_creation: "date.created"
+              # Field containing the last update date
+              as_update: "date.updated"
+              # Date and time formatting pattern
+              datetime_format: "%Y-%m-%d"
+              # Default time if none is specified
+              default_time: "09:00"
+              # Default timezone
+              default_timezone: Europe/Madrid
+            # Enables or disables the RSS plugin
+            enabled: true
+            # Feed description (if disabled, the site description is used)
+            # feed_description:
+            # Filenames for generated feeds
+            feeds_filenames:
+              # JSON feed filename for created posts
+              json_created: json-feed-created.json
+              # JSON feed filename for updated posts
+              json_updated: json-feed-updated.json
+              # RSS feed filename for created posts
+              rss_created: rss-feed-created.xml
+              # RSS feed filename for updated posts
+              rss_updated: rss-feed-updated.xml
+            # Feed title (if disabled, the site title is used)
+            # feed_title:
+            # Feed TTL (in minutes)
+            feed_ttl: 1440
+            # URL of the image used in the RSS feed
+            image: https://greengorych.io/assets/images/logo.png
+            # Enables or disables the JSON feed
+            json_feed_enabled: true
+            # Number of items included in feeds
+            length: 20
+            # Path pattern for including articles in the feed
+            match_path: "posts/.*"
+            # Enables or disables formatted (pretty-printed) RSS/JSON output
+            pretty_print: false
+            # Enables or disables the RSS feed
+            rss_feed_enabled: true
+            # UTM analytics parameters appended to URLs
+            url_parameters:
+              utm_source: "rss"
+              utm_medium: "feed"
+              utm_campaign: "blog"
+            # Enables or disables using commit timestamps from Git history
+            use_git: false
+            # Enables or disables support for the Material for MkDocs Blog
+            use_material_blog: true
+            # Enables or disables support for Material for MkDocs Social Cards
+            use_material_social_cards: false
 
   # Search plugin settings
   - search:
@@ -338,71 +410,6 @@ plugins:
         - stopWordFilter
         # Trims punctuation and special characters
         - trimmer
-
-  # RSS plugin settings
-  - rss:
-      # Number of characters for automatic announcement trimming
-      # abstract_chars_count: 160
-      # Delimiter used to define the announcement boundary
-      abstract_delimiter: <!-- more -->
-      # Source fields for categories
-      categories:
-        - categories
-      # Path to the comments section
-      # comments_path: "#__comments"
-      # Metadata date configuration
-      date_from_meta:
-        # Field containing the creation date
-        as_creation: "date.created"
-        # Field containing the last update date
-        as_update: "date.updated"
-        # Date and time formatting pattern
-        datetime_format: "%Y-%m-%d"
-        # Default time if none is specified
-        default_time: "09:00"
-        # Default timezone
-        default_timezone: Europe/Madrid
-      # Enables or disables the RSS plugin
-      enabled: true
-      # Feed description (if disabled, the site description is used)
-      # feed_description:
-      # Filenames for generated feeds
-      feeds_filenames:
-        # JSON feed filename for created posts
-        json_created: json-feed-created.json
-        # JSON feed filename for updated posts
-        json_updated: json-feed-updated.json
-        # RSS feed filename for created posts
-        rss_created: rss-feed-created.xml
-        # RSS feed filename for updated posts
-        rss_updated: rss-feed-updated.xml
-      # Feed title (if disabled, the site title is used)
-      # feed_title:
-      # Feed TTL (in minutes)
-      feed_ttl: 1440
-      # URL of the image used in the RSS feed
-      image: https://greengorych.io/assets/images/logo.png
-      # Enables or disables the JSON feed
-      json_feed_enabled: true
-      # Number of items included in feeds
-      length: 20
-      # Path pattern for including articles in the feed
-      match_path: "posts/.*"
-      # Enables or disables formatted (pretty-printed) RSS/JSON output
-      pretty_print: false
-      # Enables or disables the RSS feed
-      rss_feed_enabled: true
-      # UTM analytics parameters appended to URLs
-      url_parameters:
-        utm_source: "rss"
-        utm_medium: "feed"
-        utm_campaign: "blog"
-      # Enables or disables using commit timestamps from Git history
-      use_git: false
-      # Enables or disables support for the Material for MkDocs Blog
-      use_material_blog: true
-      # Enables or disables support for Material for MkDocs Social Cards
-      use_material_social_cards: false
 
 # Additional settings
 extra:
