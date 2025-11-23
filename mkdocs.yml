@@ -31,6 +31,8 @@ copyright: >-
 theme:
   # Theme name
   name: material
+  # Specifies the directory with the custom template
+  custom_dir: overrides
   # Site favicon
   favicon: assets/images/favicon.svg
   # Theme features
