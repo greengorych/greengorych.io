@@ -9,10 +9,10 @@ categories:
   - Ubuntu
   - WSL
 description: >-
-  How to install Ubuntu 26.04 in WSL using a custom distribution list, registry settings, and a ready-to-use manifest with additional Linux distributions.
+  How to install Ubuntu 26.04 on WSL using a custom distribution list, registry settings, and a ready-to-use manifest with additional Linux distributions.
 ---
 
-# Installing Ubuntu 26.04 in WSL
+# Installing Ubuntu 26.04 on WSL
 
 Last night, Canonical released the first snapshot of its upcoming operating system, codenamed Resolute Raccoon. The list of available distributions in the WSL project's [repository][WSL] traditionally includes only stable, long-term supported versions of Ubuntu. 26.04 will be an LTS, and it will be added to the list in April next year, after the official release.
 
