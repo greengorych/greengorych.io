@@ -3,7 +3,8 @@ site_author: Sergei Tilipin
 
 # Site description
 site_description: >-
-  Guides, configurations, references, walkthroughs, examples, and practical solutions of WSL environment and Linux systems.
+  Overviews, guides, tutorials, reference configurations, walkthroughs, examples, and practical solutions
+  for the WSL environment and Linux systems.
 
 # Site name
 site_name: GreenGorych
