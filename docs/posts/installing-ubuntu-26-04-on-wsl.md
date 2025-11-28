@@ -2,7 +2,7 @@
 draft: false
 date:
   created: 2025-11-27
-  updated: 2025-11-27
+  updated: 2025-11-28
 authors:
   - greengorych
 categories:
@@ -27,7 +27,7 @@ However, builds of versions newer than the latest LTS release, Ubuntu 24.04, inc
 
 Creating and connecting a custom distribution list makes it possible to install the latest Ubuntu versions in the same way as any official one, using the standard installation mechanism:
 
-``` bash
+``` { .powershell .no-select }
 wsl --install <DistroName>
 ```
 
@@ -63,7 +63,7 @@ The file can be saved locally or published in any repository or web resource.
 
 The manifest is configured via the following Windows registry key:
 
-``` text { .sh .no-copy }
+``` { .text .no-copy .no-select }
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss
 ```
 
@@ -76,7 +76,7 @@ The key is added with the following commands (run as administrator):
 
 === "PowerShell"
 
-    ``` powershell
+    ``` { .powershell .no-select }
     Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss" `
       -Name DistributionListUrlAppend `
       -Value "<URL>" `
@@ -85,7 +85,7 @@ The key is added with the following commands (run as administrator):
 
 === "Command Prompt"
 
-    ``` batch
+    ``` { .batch .no-select }
     reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss" ^
     /v "DistributionListUrlAppend" ^
     /t REG_MULTI_SZ ^
@@ -94,24 +94,24 @@ The key is added with the following commands (run as administrator):
     ```
 
 !!! info
-		Replace `<URL>` with the actual file path.
+	Replace `<URL>` with the actual file path.
 
 Example:
 
-```
-https://greengorych.io/distributions.json
+``` { .text .no-copy .no-select }
+https://example.org/distributions.json
 ```
 
 Or local:
 
-```
+``` { .text .no-copy .no-select }
 file:///C:/Users/<UserName>/distributions.json
 ```
 
 After adding the registry key, the list of distributions can be checked with:
 
-``` powershell
-wsl -l -o
+``` { .powershell .no-select }
+wsl --list --online
 ```
 
 ## Ready-to-use manifest
@@ -131,7 +131,7 @@ The file can be downloaded and connected locally or from the repository using th
 
 === "PowerShell"
 
-    ``` powershell
+    ``` { .powershell .no-select }
     Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss" `
       -Name DistributionListUrlAppend `
       -Value "https://raw.githubusercontent.com/greengorych/wsl-configs/main/distributions/distributions.json" `
@@ -140,7 +140,7 @@ The file can be downloaded and connected locally or from the repository using th
 
 === "Command Prompt"
 
-    ``` batch
+    ``` { .batch .no-select }
     reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss" ^
     /v "DistributionListUrlAppend" ^
     /t REG_MULTI_SZ ^
