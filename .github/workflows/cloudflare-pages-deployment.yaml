@@ -23,6 +23,14 @@ jobs:
     steps:
       - name: Checkout site sources
         uses: actions/checkout@v6
+        with:
+          path: greengorych.io
+
+      - name: Checkout WSL configurations
+        uses: actions/checkout@v6
+        with:
+          repository: greengorych/wsl-configs
+          path: wsl-configs
 
       - name: Set up Python
         uses: actions/setup-python@v6
