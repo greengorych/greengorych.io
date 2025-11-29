@@ -28,7 +28,6 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: greengorych/wsl-configs
-          path: wsl-configs
 
       - name: Set up Python
         uses: actions/setup-python@v6
