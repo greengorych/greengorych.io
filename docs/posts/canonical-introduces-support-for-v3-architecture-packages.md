@@ -2,7 +2,7 @@
 draft: false
 date:
   created: 2025-10-31
-  updated: 2025-11-05
+  updated: 2025-11-29
 authors:
   - greengorych
 categories:
@@ -14,44 +14,54 @@ description: >-
 
 # Canonical Introduces Support for v3 Architecture Packages
 
-Canonical has [announced](https://discourse.ubuntu.com/t/introducing-architecture-variants-amd64v3-now-available-in-ubuntu-25-10/71312?utm_source=chatgpt.com) support for packages optimized for the v3 CPU architecture. Starting with Ubuntu 25.10 (currently in testing), it’s now possible to install and update packages built for this architecture.
+Canonical has [announced][announced] support for packages optimized for the v3 CPU architecture. Starting with Ubuntu 25.10 (currently in testing), it’s now possible to install and update packages built for this architecture.
 
 At the moment, v3 packages are still being rebuilt, so not all of them are available yet. Testing is also incomplete, and users who upgrade may encounter some issues, these will be addressed by the time Ubuntu 26.04 LTS is released.
 
+[announced]: https://discourse.ubuntu.com/t/introducing-architecture-variants-amd64v3-now-available-in-ubuntu-25-10/71312?utm_source=chatgpt.com
+
 <!-- more -->
 
-## What the v3 Architecture Means
+## What the v3 architecture means
 
 Traditionally, Ubuntu is built for the baseline x86-64 (amd64) architecture — a "set of instructions" that ensures compatibility even with older processors.
 
 The move to amd64v3 means that software can now take advantage of newer CPU instructions that deliver better performance.
 However, this also makes the software incompatible with older CPUs that do not support these extensions.
 
-## How to Enable Support for v3 Packages
+## How to check support for v3 packages
 
 Check CPU architecture:
 
-``` bash
+``` { .bash .no-select }
 ld.so --help | grep '\-v[0-9]'
 ```
 
-If the output includes the line `x86-64-v3 (supported, searched)`, it means your processor supports the v3 architecture.
+If the output includes the line `x86-64-v3 (supported, searched)`, it means processor supports the v3 architecture.
 
 Example output:
 
-``` text { .sh .no-copy }
+``` { .text .no-copy .no-select }
 x86-64-v4
 x86-64-v3 (supported, searched)
 x86-64-v2 (supported, searched)
 ```
 
-Add the configuration:
+## How to enable support for v3 packages
 
-``` bash
+Add the `99enable-amd64v3` configuration:
+
+``` { .bash .no-select }
 echo 'APT::Architecture-Variants "amd64v3";' | sudo tee /etc/apt/apt.conf.d/99enable-amd64v3
 ```
 
-Or modify the default repository settings in `/etc/apt/sources.list.d/ubuntu.sources`:
+Or modify the default repository settings in:
+
+``` { .bash .no-select }
+/etc/apt/sources.list.d/ubuntu.sources
+```
+
+Example of modified `ubuntu.sources`:
 
 ``` ini
 Types: deb
@@ -73,13 +83,13 @@ Enabled: yes
 
 Update package lists:
 
-``` bash
+``` { .bash .no-select }
 sudo apt update
 ```
 
 Upgrade the system:
 
-``` bash
+``` { .bash .no-select }
 sudo apt upgrade
 ```
 
