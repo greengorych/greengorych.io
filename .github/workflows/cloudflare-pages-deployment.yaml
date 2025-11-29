@@ -35,10 +35,6 @@ jobs:
         with:
           python-version: ${{ vars.PYTHON_VER }}
 
-      # - name: Install Wrangler
-      #   run: |
-      #     npm install -g wrangler@latest
-
       - name: Install Material for MkDocs and dependencies
         run: |
           pip install -r requirements.txt
@@ -61,7 +57,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           gitHubToken: ${{ secrets.GH_TOKEN }}
-          command: pages deploy ${{ vars.SITE_DIR }} --project-name=${{ vars.CLOUDFLARE_PROJECT_NAME }}
+          command: pages deploy ${{ vars.SITE_DIR }} --project-name=${{ vars.CLOUDFLARE_PROJECT_NAME }} --commit-dirty=true
 
       # - name: Notify IndexNow about site changes
       #   uses: bojieyang/indexnow-action@v2
