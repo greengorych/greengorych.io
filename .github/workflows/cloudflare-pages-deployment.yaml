@@ -62,5 +62,5 @@ jobs:
       - name: Notify IndexNow about site changes
         uses: bojieyang/indexnow-action@v2
         with:
-          sitemap-location: "${{ vars.SITE_DIR }}/sitemap.xml"
+          sitemap-location: "https://greengorych.io/sitemap.xml"
           key: ${{ secrets.INDEXNOW_API_KEY }}
