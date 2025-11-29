@@ -62,8 +62,8 @@ jobs:
           gitHubToken: ${{ secrets.GH_TOKEN }}
           command: pages deploy ${{ vars.SITE_DIR }} --project-name=${{ vars.CLOUDFLARE_PROJECT_NAME }}
 
-      - name: Notify IndexNow about site changes
-        uses: bojieyang/indexnow-action@v2
-        with:
-          sitemap-location: "${{ vars.SITE_DIR }}/sitemap.xml"
-          key: ${{ secrets.INDEXNOW_API_KEY }}
+      # - name: Notify IndexNow about site changes
+      #   uses: bojieyang/indexnow-action@v2
+      #   with:
+      #     sitemap-location: "${{ vars.SITE_DIR }}/sitemap.xml"
+      #     key: ${{ secrets.INDEXNOW_API_KEY }}
