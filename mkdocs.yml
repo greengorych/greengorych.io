@@ -508,7 +508,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   # Enables to directly embed external files or their fragments
   - pymdownx.snippets:
-      base_path: "../wsl-configs"
+      base_path: "wsl-configs"
       check_paths: true
   # Enables extended support for fenced code blocks, including nested ones
   - pymdownx.superfences:
