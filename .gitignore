@@ -1,5 +1,6 @@
 .cache/
 .venv/
+wsl-configs/
 site/
 requirements.in
 requirements.out
