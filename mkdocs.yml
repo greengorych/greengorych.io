@@ -539,6 +539,9 @@ markdown_extensions:
 nav:
   - Blog:
       - index.md
+  - Projects:
+      - projects/index.md
+      - projects/wsl-configs.md
   - About:
       - about/index.md
       - Licenses: about/licenses.md
