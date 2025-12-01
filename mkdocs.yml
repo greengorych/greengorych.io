@@ -539,8 +539,9 @@ markdown_extensions:
 nav:
   - Blog:
       - index.md
-  - Licenses:
-      - licenses.md
+  - About:
+      - about/index.md
+      - Licenses: about/licenses.md
 
 # Additional templates
 extra_templates:
