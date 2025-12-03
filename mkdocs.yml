@@ -71,7 +71,7 @@ theme:
     # Show a progress indicator during page loads
     - navigation.instant.progress
     # Display the navigation path (breadcrumbs)
-    - navigation.path
+    # - navigation.path
     # Prune navigation to only show relevant sections
     - navigation.prune
     # Group pages by navigation sections
