@@ -93,7 +93,7 @@ theme:
     # Follow the active anchor in the table of contents
     - toc.follow
     # Integrate table of contents into the navigation sidebar
-    - toc.integrate
+    # - toc.integrate
   # Icons settings
   icon:
     # Admonition icons
