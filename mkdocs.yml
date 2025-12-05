@@ -522,7 +522,7 @@ markdown_extensions:
         kwds:
           case: lower
       title: Table of content
-      toc_depth: 3
+      toc_depth: 4
 
 # Navigation settings
 nav:
