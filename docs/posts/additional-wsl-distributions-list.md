@@ -2,6 +2,7 @@
 draft: false
 date:
   created: 2025-12-01
+  updated: 2025-12-05
 authors:
   - greengorych
 categories:
@@ -26,6 +27,7 @@ The unofficial, ready-to-use list of additional WSL distributions consists of:
 | Distribution            | Architecture |
 | ----------------------- | ------------ |
 | NixOS 25.05             | amd64        |
+| Rocky Linux 9.7         | amd64, arm64 |
 | Rocky Linux 10.1        | amd64, arm64 |
 | Ubuntu 25.04            | amd64, arm64 |
 | Ubuntu 25.10            | amd64, arm64 |
@@ -97,6 +99,7 @@ Additional distributions not included in the official manifest should now appear
 ``` { .text .no-copy .no-select }
 NAME                FRIENDLY NAME
 NixOS-25.05         NixOS 25.05
+RockyLinux-9.7      Rocky Linux 9.7
 RockyLinux-10.1     Rocky Linux 10.1
 Ubuntu-25.04        Ubuntu 25.04
 Ubuntu-25.10        Ubuntu 25.10
