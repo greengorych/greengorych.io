@@ -1,5 +1,6 @@
 ---
-description:
+description: >-
+  eference for the per-instance WSL configuration file wsl.conf, covering all available sections and settings for both WSL 1 and WSL 2.
 ---
 
 # wsl.conf
