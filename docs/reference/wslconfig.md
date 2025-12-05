@@ -1,5 +1,6 @@
 ---
-description:
+description: >-
+  Reference for the global WSL configuration file .wslconfig, covering all available sections and settings.
 ---
 
 # .wslconfig
