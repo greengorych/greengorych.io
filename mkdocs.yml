@@ -533,6 +533,8 @@ nav:
       - Configurations:
           - .wslconfig: reference/wslconfig.md
           - wsl.conf: reference/wsl-conf.md
+      - Settings:
+          - Registry: reference/registry.md
   - Projects:
       - projects/index.md
       - projects/wsl-configs.md
