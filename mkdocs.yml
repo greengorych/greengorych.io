@@ -533,6 +533,7 @@ nav:
       - Configurations:
           - .wslconfig: reference/wslconfig.md
           - wsl.conf: reference/wsl-conf.md
+          - wsl-distribution.conf: reference/wsl-distribution-conf.md
       - Settings:
           - Registry: reference/registry.md
   - Projects:
