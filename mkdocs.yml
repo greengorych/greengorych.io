@@ -362,11 +362,11 @@ plugins:
             # Filenames for generated feeds
             feeds_filenames:
               # JSON feed filename for created posts
-              json_created: json-feed-created.json
+              json_created: json-feed.json
               # JSON feed filename for updated posts
               json_updated: json-feed-updated.json
               # RSS feed filename for created posts
-              rss_created: rss-feed-created.xml
+              rss_created: rss-feed.xml
               # RSS feed filename for updated posts
               rss_updated: rss-feed-updated.xml
             # Feed title (if disabled, the site title is used)
@@ -459,10 +459,10 @@ extra:
       link: https://www.linkedin.com/in/greengorych
       name: greengorych on LinkedIn
     - icon: material/rss
-      link: https://greengorych.io/rss-feed-created.xml
+      link: https://greengorych.io/rss-feed.xml
       name: RSS Feed
     - icon: material/code-json
-      link: https://greengorych.io/json-feed-created.json
+      link: https://greengorych.io/json-feed.json
       name: JSON Feed
 
 # Markdown extension settings
