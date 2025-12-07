@@ -1,6 +1,8 @@
 ---
 description: >-
   Reference for the per-instance WSL configuration file wsl.conf, covering all available sections and settings for both WSL 1 and WSL 2.
+title: >-
+  Reference for the per-instance WSL configuration file wsl.conf
 ---
 
 # wsl.conf
@@ -19,148 +21,166 @@ A per-instance configuration file used by both WSL 1 and WSL 2 instances, which 
 - Uses the INI format, with settings grouped into sections.
 - Uses the INI format, with settings grouped into sections.
 - Availability of parameters depends on the WSL version and release.
-- Changes take effect only after restarting the instance using `wsl --terminate`.
+- Changes take effect only after restarting the instance using `wsl --terminate <InstanceName>`.
 
 [boot-systemd]: wsl-conf.md/#systemd
 [user-default]: wsl-conf.md/#default
 
-## boot
+## Settings
 
 ---
 
-### `systemd`
+### boot
+
+The settings described below are located in the `[boot]` section.
+
+#### `systemd`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:6:13"
 ```
 
-### `protectBinfmt`
+#### `protectBinfmt`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:15:22"
 ```
 
-### `command`
+#### `command`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:24:29"
 ```
 
-## automount
+### automount
+
+The settings described below are located in the `[automount]` section.
 
 ---
 
-### `enabled`
+#### `enabled`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:33:40"
 ```
 
-### `cgroups`
+#### `cgroups`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:42:49"
 ```
 
-### `ldconfig`
+#### `ldconfig`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:51:58"
 ```
 
-### `mountFsTab`
+#### `mountFsTab`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:60:67"
 ```
 
-### `root`
+#### `root`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:69:74"
 ```
 
-### `options`
+#### `options`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:76:106"
 ```
 
-## network
+### network
+
+The settings described below are located in the `[network]` section.
 
 ---
 
-### `hostname`
+#### `hostname`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:110:115"
 ```
 
-### `generateHosts`
+#### `generateHosts`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:117:124"
 ```
 
-### `generateResolvConf`
+#### `generateResolvConf`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:126:133"
 ```
 
-## gpu
+### gpu
+
+The settings described below are located in the `[gpu]` section.
 
 ---
 
-### `enabled`
+#### `enabled`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:137:144"
 ```
 
-### `appendLibPath`
+#### `appendLibPath`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:146:153"
 ```
 
-## time
+### time
+
+The settings described below are located in the `[time]` section.
 
 ---
 
-### `useWindowsTimezone`
+#### `useWindowsTimezone`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:157:164"
 ```
 
-## interop
+### interop
+
+The settings described below are located in the `[interop]` section.
 
 ---
 
-### `enabled`
+#### `enabled`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:168:175"
 ```
 
-### `appendWindowsPath`
+#### `appendWindowsPath`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:177:184"
 ```
 
-## user
+### user
+
+The settings described below are located in the `[user]` section.
 
 ---
 
-### `default`
+#### `default`
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf:188:192"
 ```
 
 ## Full configuration
+
+This is the fully documented per-instance configuration file reference and template.
 
 ``` ini
 --8<-- "wsl.conf/wsl.conf"
