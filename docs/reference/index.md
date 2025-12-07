@@ -1,6 +1,8 @@
 ---
 description: >-
   Reference guide to terminology, notation, and formatting conventions used throughout this site.
+title: >-
+  Reference guide to terminology, notation, and formatting conventions
 ---
 
 # Conventions
