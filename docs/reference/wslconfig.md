@@ -1,6 +1,8 @@
 ---
 description: >-
-  Reference for the global WSL configuration file .wslconfig, covering all available sections and settings.
+  Reference for the global WSL 2 configuration file .wslconfig, covering all available sections and settings.
+title: >-
+  Reference for the global WSL 2 configuration file .wslconfig
 ---
 
 # .wslconfig
@@ -21,325 +23,331 @@ A global WSL 2 configuration file, whose settings apply to all newly installed d
 - Availability and behavior of parameters depend on the WSL release, operating system, and processor architecture.
 - Some settings can be configured through the WSL Settings graphical interface.
 
-## general
+## Settings
+
+---
+
+### general
 
 The settings described below apply to the `[general]` section.
 
 ---
 
-### `distributionInstallPath`
+#### `distributionInstallPath`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:6:10"
 ```
 
-### `instanceIdleTimeout`
+#### `instanceIdleTimeout`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:12:19"
 ```
 
-## wsl2
+### wsl2
 
 The settings described below apply to the `[wsl2]` section.
 
 ---
 
-### `vmIdleTimeout`
+#### `vmIdleTimeout`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:23:30"
 ```
 
-### `distributionStartTimeout`
+#### `distributionStartTimeout`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:32:37"
 ```
 
-### `nestedVirtualization`
+#### `nestedVirtualization`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:39:49"
 ```
 
-### `processors`
+#### `processors`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:51:55"
 ```
 
-### `memory`
+#### `memory`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:57:61"
 ```
 
-### `gpuSupport`
+#### `gpuSupport`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:63:69"
 ```
 
-### `defaultVhdSize`
+#### `defaultVhdSize`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:71:76"
 ```
 
-### `swap`
+#### `swap`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:78:86"
 ```
 
-### `swapFile`
+#### `swapFile`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:88:94"
 ```
 
-### `networkingMode`
+#### `networkingMode`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:96:108"
 ```
 
-### `vmSwitch`
+#### `vmSwitch`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:110:117"
 ```
 
-### `macAddress`
+#### `macAddress`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:119:124"
 ```
 
-### `dhcp`
+#### `dhcp`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:126:133"
 ```
 
-### `dhcpTimeout`
+#### `dhcpTimeout`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:135:141"
 ```
 
-### `ipv6`
+#### `ipv6`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:143:150"
 ```
 
-### `localhostForwarding`
+#### `localhostForwarding`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:152:159"
 ```
 
-### `dnsProxy`
+#### `dnsProxy`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:161:167"
 ```
 
-### `dnsTunneling`
+#### `dnsTunneling`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:169:177"
 ```
 
-### `firewall`
+#### `firewall`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:179:185"
 ```
 
-### `autoProxy`
+#### `autoProxy`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:187:193"
 ```
 
-### `kernel`
+#### `kernel`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:195:199"
 ```
 
-### `kernelCommandLine`
+#### `kernelCommandLine`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:201:205"
 ```
 
-### `kernelBootTimeout`
+#### `kernelBootTimeout`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:207:210"
 ```
 
-### `kernelModules`
+#### `kernelModules`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:212:216"
 ```
 
-### `loadKernelModules`
+#### `loadKernelModules`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:218:222"
 ```
 
-### `loadDefaultKernelModules`
+#### `loadDefaultKernelModules`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:224:231"
 ```
 
-### `kernelDebugPort`
+#### `kernelDebugPort`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:233:238"
 ```
 
-### `hostFileSystemAccess`
+#### `hostFileSystemAccess`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:240:246"
 ```
 
-### `virtio`
+#### `virtio`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:248:257"
 ```
 
-### `virtio9p`
+#### `virtio9p`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:259:266"
 ```
 
-### `virtiofs`
+#### `virtiofs`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:268:278"
 ```
 
-### `mountDeviceTimeout`
+#### `mountDeviceTimeout`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:280:284"
 ```
 
-### `guiApplications`
+#### `guiApplications`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:286:292"
 ```
 
-### `systemDistro`
+#### `systemDistro`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:294:299"
 ```
 
-### `safeMode`
+#### `safeMode`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:301:307"
 ```
 
-### `debugConsole`
+#### `debugConsole`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:309:316"
 ```
 
-### `earlyBootLogging`
+#### `earlyBootLogging`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:318:325"
 ```
 
-### `debugConsoleLogFile`
+#### `debugConsoleLogFile`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:327:331"
 ```
 
-### `maxCrashDumpCount`
+#### `maxCrashDumpCount`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:333:340"
 ```
 
-### `crashDumpFolder`
+#### `crashDumpFolder`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:342:347"
 ```
 
-### `telemetry`
+#### `telemetry`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:349:355"
 ```
 
-## `experimental`
+### `experimental`
 
 The settings described below apply to the `[experimental]` section.
 
 ---
 
-### `autoMemoryReclaim`
+#### `autoMemoryReclaim`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:371:378"
 ```
 
-### `sparseVhd`
+#### `sparseVhd`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:380:386"
 ```
 
-### `bestEffortDnsParsing`
+#### `bestEffortDnsParsing`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:388:396"
 ```
 
-### `dnsTunnelingIpAddress`
+#### `dnsTunnelingIpAddress`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:398:404"
 ```
 
-### `initialAutoProxyTimeout`
+#### `initialAutoProxyTimeout`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:406:410"
 ```
 
-### `ignoredPorts`
+#### `ignoredPorts`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:412:417"
 ```
 
-### `hostAddressLoopback`
+#### `hostAddressLoopback`
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:419:426"
 ```
 
 ## Full configuration
+
+This is the fully documented global WSL 2 configuration file reference and template.
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig"
