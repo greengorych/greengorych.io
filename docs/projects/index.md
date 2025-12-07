@@ -1,13 +1,17 @@
 ---
 description: >-
-  Personal development projects, tools, configuration files, and documentation.
+  Development projects: configuration files and documentation.
+title: >-
+  Development projects: configuration files and technical documentation
 ---
 
 # Projects
 
-This section provides a list of my personal projects and links to instructions on how to use them.
+This section provides a list of development projects and links to instructions on how to use them.
 
 ## wsl-configs
+
+---
 
 [**wsl-configs**][wsl-configs] – a repository containing a curated collection of configuration files for Windows Subsystem for Linux (WSL).
 
@@ -22,8 +26,8 @@ This section provides a list of my personal projects and links to instructions o
 [wsl.conf]: wsl-configs.md/#wslconf
 [wsl-distribution.conf]: wsl-configs.md/#distributionsjson
 
-## Additional configurations
+### Additional configurations
 
-- [**distributions.json**][distributions.json] – a ready-to-use manifest for additional WSL distributions.
+- [**distributions.json**][distributions.json] – an unofficial, ready-to-use manifest with additional WSL distributions.
 
 [distributions.json]: wsl-configs.md/#distributionsjson
