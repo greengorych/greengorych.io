@@ -66,7 +66,7 @@ And start it again. After this, the configuration will be applied.
 !!! info
     More information about the configuration is available in the reference section [`wsl.conf`][wsl-conf].
 
-[wsl-conf]: ../reference/wsl-conf.md/#wsl.conf
+[wsl-conf]: ../reference/wsl-conf.md/#wslconf
 
 ### wsl-distribution.conf
 
