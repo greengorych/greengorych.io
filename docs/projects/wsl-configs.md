@@ -7,7 +7,7 @@ title: >-
 
 # wsl-configs
 
-[**wsl-configs**][wsl-configs] – a repository containing a curated collection of configuration files for Windows Subsystem for Linux (WSL).
+[wsl-configs][wsl-configs] – a repository containing a curated collection of configuration files for Windows Subsystem for Linux (WSL).
 
 [wsl-configs]: https://github.com/greengorych/wsl-configs
 
@@ -17,7 +17,7 @@ title: >-
 
 ### .wslconfig
 
-[**.wslconfig**][.wslconfig] – a fully documented global WSL 2 configuration file.
+[.wslconfig][.wslconfig] – a fully documented global WSL 2 configuration file.
 
 [.wslconfig]: https://github.com/greengorych/wsl-configs/tree/main/.wslconfig/.wslconfig
 
@@ -44,7 +44,7 @@ And start it again. After this, the configuration will be applied.
 
 ### wsl.conf
 
-[**wsl.conf**][wsl.conf] – a fully documented per-instance configuration file used by both WSL 1 and WSL 2 instances.
+[wsl.conf][wsl.conf] – a fully documented per-instance configuration file used by both WSL 1 and WSL 2 instances.
 
 [wsl.conf]: https://github.com/greengorych/wsl-configs/blob/main/wsl.conf/wsl.conf
 
@@ -70,12 +70,12 @@ And start it again. After this, the configuration will be applied.
 
 ### wsl-distribution.conf
 
-[**wsl-distribution.conf**][wsl-distribution.conf] – a fully documented per-distribution configuration file used during installation and except OOBE script during import of the distribution.
+[wsl-distribution.conf][wsl-distribution.conf] – a fully documented per-distribution configuration file used during installation and except OOBE script during import of the distribution.
 
 [wsl-distribution.conf]: https://github.com/greengorych/wsl-configs/blob/main/wsl-distribution.conf/wsl-distribution.conf
 
 !!! info
-    More information about the configuration is available in the reference section [`wsl-distribution.conf`][wsl-distribution-conf].
+    More information about the configuration is available on the reference page [`wsl-distribution.conf`][wsl-distribution-conf].
 
 [wsl-distribution-conf]: ../reference/wsl-distribution-conf.md/#wsl-distributionconf
 
@@ -85,7 +85,7 @@ And start it again. After this, the configuration will be applied.
 
 ### distributions.json
 
-[**distributions.json**][distributions.json] – an unofficial, ready-to-use list of additional WSL distributions consists of:
+[distributions.json][distributions.json] – an unofficial, ready-to-use list of additional WSL distributions consists of:
 
 [distributions.json]: https://github.com/greengorych/wsl-configs/blob/main/distributions/distributions.json
 
