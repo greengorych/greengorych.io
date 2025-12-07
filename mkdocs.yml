@@ -540,7 +540,7 @@ nav:
           - OOBE script: reference/oobe-script.md
   - Projects:
       - projects/index.md
-      - projects/wsl-configs.md
+      - wsl-configs: projects/wsl-configs.md
   - About:
       - about/index.md
       - Licenses: about/licenses.md
