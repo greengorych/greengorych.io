@@ -1,6 +1,8 @@
 ---
 description: >-
   A curated collection of fully documented configuration files and manifests for Windows Subsystem for Linux (WSL).
+title: >-
+  Curated collection of fully documented configuration files
 ---
 
 # wsl-configs
@@ -10,6 +12,8 @@ description: >-
 [wsl-configs]: https://github.com/greengorych/wsl-configs
 
 ## Main configurations
+
+---
 
 ### .wslconfig
 
@@ -25,9 +29,6 @@ C:\Users\<UserName>\.wslconfig
 
 Where `<UserName>` is a Windows username.
 
-!!! info
-    The `.wslconfig` file does not exist by default.
-
 Make configuration changes and shut down WSL:
 
 ``` { .powershell .no-select}
@@ -35,6 +36,11 @@ wsl --shutdown
 ```
 
 And start it again. After this, the configuration will be applied.
+
+!!! info
+    More information about the configuration is available in the reference section [.wslconfig][wslconfig].
+
+[wslconfig]: ../reference/wslconfig.md/#wslconfig
 
 ### wsl.conf
 
@@ -57,27 +63,40 @@ wsl --terminate <InstanceName>
 
 And start it again. After this, the configuration will be applied.
 
+!!! info
+    More information about the configuration is available in the reference section [wsl-conf].
+
+[wsl-conf]: ../reference/wsl-conf.md/#wsl.conf
+
 ### wsl-distribution.conf
 
 [**wsl-distribution.conf**][wsl-distribution.conf] – a fully documented per-distribution configuration file used during installation and except OOBE script during import of the distribution.
 
 [wsl-distribution.conf]: https://github.com/greengorych/wsl-configs/blob/main/wsl-distribution.conf/wsl-distribution.conf
 
+!!! info
+    More information about the configuration is available in the reference section [wsl-distribution-conf].
+
+[wsl-distribution-conf]: ../reference/wsl-distribution-conf.md/#wsl-distributionconf
+
 ## Additional configurations
+
+---
 
 ### distributions.json
 
 [**distributions.json**][distributions.json] – an unofficial, ready-to-use list of additional WSL distributions consists of:
 
+[distributions.json]: https://github.com/greengorych/wsl-configs/blob/main/distributions/distributions.json
+
 | Distribution            | Architecture |
 | ----------------------- | ------------ |
 | NixOS 25.05             | amd64        |
+| Rocky Linux 9.7         | amd64, arm64 |
 | Rocky Linux 10.1        | amd64, arm64 |
 | Ubuntu 25.04            | amd64, arm64 |
 | Ubuntu 25.10            | amd64, arm64 |
 | Ubuntu 26.04 Snapshot 1 | amd64, arm64 |
-
-[distributions.json]: https://github.com/greengorych/wsl-configs/blob/main/distributions/distributions.json
 
 The file can be downloaded and connected locally using commands (run as administrator):
 
