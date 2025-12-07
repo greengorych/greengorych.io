@@ -1,6 +1,8 @@
 ---
 description: >-
   Reference for the WSL distribution configuration file wsl-distribution.conf, covering all available sections and settings.
+title: >-
+  Reference for the WSL distribution configuration file wsl-distribution.conf
 ---
 
 # wsl-distribution.conf
