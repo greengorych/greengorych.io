@@ -1,6 +1,8 @@
 ---
 description: >-
   Reference for the main Windows Registry key and several values ​​used to manage some WSL settings
+title: >-
+  Reference for the main Windows Registry key and values
 ---
 
 # Registry
@@ -54,7 +56,10 @@ HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\DistributionListUrlAppend
 ```
 
 !!! info
-    For simplicity, the abbreviated name `HKLM` is used instead of the full name `HKEY_LOCAL_MACHINE`.
+    More information about distribution lists is available in the reference section [distributions.json][distributions.json].
+
+[distributions.json]: ../reference/wsl-distribution-conf.md/#wsl-distributionconf
+
 
 ## Summary table
 
@@ -65,3 +70,6 @@ HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\DistributionListUrlAppend
 | Windows Registry | `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\NatNetwork`                | Registry value defines NAT network                    |
 | Windows Registry | `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\DistributionListUrl`       | Registry value replaces the default distribution list |
 | Windows Registry | `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\DistributionListUrlAppend` | Registry value appends the default distribution list  |
+
+!!! info
+    For simplicity, the abbreviated name `HKLM` is used instead of the full name `HKEY_LOCAL_MACHINE`.
