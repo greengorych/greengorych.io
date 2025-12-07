@@ -38,7 +38,7 @@ wsl --shutdown
 And start it again. After this, the configuration will be applied.
 
 !!! info
-    More information about the configuration is available in the reference section [.wslconfig][wslconfig].
+    More information about the configuration is available in the reference section [`.wslconfig`][wslconfig].
 
 [wslconfig]: ../reference/wslconfig.md/#wslconfig
 
@@ -64,7 +64,7 @@ wsl --terminate <InstanceName>
 And start it again. After this, the configuration will be applied.
 
 !!! info
-    More information about the configuration is available in the reference section [wsl-conf].
+    More information about the configuration is available in the reference section [`wsl.conf`][wsl-conf].
 
 [wsl-conf]: ../reference/wsl-conf.md/#wsl.conf
 
@@ -75,7 +75,7 @@ And start it again. After this, the configuration will be applied.
 [wsl-distribution.conf]: https://github.com/greengorych/wsl-configs/blob/main/wsl-distribution.conf/wsl-distribution.conf
 
 !!! info
-    More information about the configuration is available in the reference section [wsl-distribution-conf].
+    More information about the configuration is available in the reference section [`wsl-distribution.conf`][wsl-distribution-conf].
 
 [wsl-distribution-conf]: ../reference/wsl-distribution-conf.md/#wsl-distributionconf
 
