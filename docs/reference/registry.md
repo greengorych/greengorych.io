@@ -55,12 +55,6 @@ A registry value that allows to append the default distribution list.
 HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\DistributionListUrlAppend
 ```
 
-!!! info
-    More information about distribution lists is available in the reference section [distributions.json][distributions.json].
-
-[distributions.json]: ../reference/wsl-distribution-conf.md/#wsl-distributionconf
-
-
 ## Summary table
 
 | Location         | Path                                                                            | Description                                           |
