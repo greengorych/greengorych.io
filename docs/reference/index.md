@@ -1,114 +1,52 @@
 ---
 description: >-
-  Reference guide to terminology, notation, and formatting conventions used throughout this site.
+  Comprehensive reference for WSL configurations, settings, paths, commands, and related environment details.
 title: >-
-  Reference guide to terminology, notation, and formatting conventions
+  WSL reference
 ---
 
-# Conventions
+# Reference
 
-This section explains terminology, notation, and examples used throughout the site.
-
-## General terms
-
----
-
-### Distribution
-
-A distribution is an archive containing the `rootfs` of the operating system being installed. Most installable distributions use the `.wsl` extension.
-
-### Instance
-
-An instance is a system installed from a distribution, ready to run or already running.
-
-### cloud-init
-
-`cloud-init` is a system designed to automatically configure a Linux distribution during its first boot.
-
-## Configuration terms
-
----
-
-### Configuration format
-
-WSL configuration files: [`.wslconfig`][.wslconfig]{ data-preview }, [`wsl.conf`][wsl-conf]{ data-preview }, [`wsl-distribution.conf`][wsl-distribution-conf]{ data-preview } use the INI format, in which settings are grouped into sections.
-
-[.wslconfig]: wslconfig.md/#wslconfig
-[wsl-conf]: wsl-conf.md/#wslconf
-[wsl-distribution-conf]: wsl-distribution-conf.md/#wsl-distributionconf
-
-### Section name
-
-A section in a configuration file is a logically separated block of settings grouped by a specific topic or functionality.
-
-In this setting example, the section title is highlighted.
-
-``` { .ini .no-copy .no-select hl_lines="1" }
---8<-- "wsl.conf/wsl.conf:4:13"
-```
-
-### Setting name
-
-A setting is a configurable parameter that controls WSL, a distribution, or instance behavior.
-
-In this example, the setting is highlighted.
-
-``` { .ini .no-copy .no-select hl_lines="10" }
-[boot]
-
-# Enables systemd support
-# Available in: WSL 2
-# Dependencies: None
-# Default: true
-# Values:
-# - true
-# - false
-systemd = true
-```
-
-### Fully qualified setting name
-
-`section.setting` is a fully qualified setting name used to reference a configuration option located in a specific section of a configuration file. In documentation or articles, may encounter examples like `{==boot.systemd==}` or `{==boot.systemd = true==}`, which use the fully qualified setting name to unambiguously indicate where the setting resides
-
-In this example, both the section and the setting are highlighted:
-
-``` { .ini .no-copy .no-select hl_lines="1 10" }
---8<-- "wsl.conf/wsl.conf:4:13"
-```
-
-### Setting value
-
-A setting value is the data assigned to a setting that determines how the corresponding configuration option will work. A value can be a string, a number, a Boolean flag, or another data type allowed by the configuration file format. The numeric value can be negative, positive, or zero.
-
-In this example, the setting that has a Boolean value is highlighted:
-
-``` { .ini .no-copy .no-select hl_lines="10" }
---8<-- "wsl.conf/wsl.conf:4:13"
-```
-
-In this example, the setting that has an integer value is highlighted:
-
-``` { .ini .no-copy .no-select hl_lines="10" }
---8<-- ".wslconfig/.wslconfig:21:30"
-```
-
-In this example, the setting that has a string value is highlighted:
-
-``` { .ini .no-copy .no-select hl_lines="10" }
---8<-- ".wslconfig/.wslconfig:369:378"
-```
-
-### Experimental settings
-
-An experimental setting is a configuration option that enables features still under development or testing. Experimental settings are typically disabled by default and should be used with caution.
+WSL, distribution, and instance configurations contain numerous settings that allow you to customize the environment for various tasks. This section of the reference explains how to configure these components and provides examples that can be used to configure both WSL itself and individual distributions.
 
 !!! info
-    The `[experimental]` section is available only in the [`.wslconfig`][.wslconfig]{ data-preview } configuration file.
+    This section does not contain complete or fully verified information about WSL and its environment. Despite the name "Reference", it is only a draft — a skeleton and structure that still needs to be expanded to become a full-fledged reference.
+## Reference structure
 
-[.wslconfig]: wslconfig.md/#wslconfig
+---
 
-In this example setting, the `[experimental]` section is highlighted:
+### General
 
-``` { .ini .no-copy .no-select hl_lines="1" }
---8<-- ".wslconfig/.wslconfig:369:378"
-```
+- [Conventions][conventions] – a page explaining the basic terminology, notations, settings, code blocks and configuration examples used on the site.
+
+### Configurations
+
+  - [.wslconfig][.wslconfig] – an overview of the global configuration file, descriptions of individual settings, and a ready-to-use template.
+  - [wsl.conf][wsl.conf] – an overview of the instance-level configuration file, descriptions of individual settings, and a ready-to-use template.
+  - [wsl-distribution.conf][wsl-distribution.conf] – an overview of the distribution-level configuration file, descriptions of individual settings, and a ready-to-use template.
+  - distributions.json – _this page is under development_.
+  - terminal-profile.json – _this page is under development_.
+  - cloud-init – _this page is under development_.
+
+[conventions]: conventions.md
+[.wslconfig]: wslconfig.md
+[wsl.conf]: wsl-conf.md
+[wsl-distribution.conf]: wsl-distribution-conf.md
+
+### Settings
+
+  - [Paths][paths] – a page listing all key Windows and Linux paths used by WSL and its environment.
+  - [Registry][registry] – a page describing the main Windows Registry keys and values used to configure certain WSL settings.
+[paths]: paths.md
+[registry]: registry.md
+
+### Commands
+
+  - Windows – _this page is under development_.
+  - Linux – _this page is under development_.
+  - PowerShell – _this page is under development_.
+
+### Scripts
+  - [OOBE script][oobe-script] – a page describing the Out-of-Box Experience (OOBE) script and its purpose.
+
+[oobe-script]: oobe-script.md

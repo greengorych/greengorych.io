@@ -530,6 +530,8 @@ nav:
       - index.md
   - Reference:
       - reference/index.md
+      - General:
+          - Conventions: reference/conventions.md
       - Configurations:
           - .wslconfig: reference/wslconfig.md
           - wsl.conf: reference/wsl-conf.md
