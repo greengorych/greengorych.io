@@ -35,6 +35,6 @@ But, as is known, when one door closes, another opens. After long consideration,
 
 This blog is a desire to systematize accumulated knowledge and share my experience. Here I will write about WSL, automation, environment configuration, and everything that makes development more convenient. And perhaps not only that.
 
-[cloud-init]: ../reference/index.md/#cloud-init
+[cloud-init]: ../reference/conventions.md/#cloud-init
 [.wslconfig]: ../reference/wslconfig.md/#wslconfig
 [wsl.conf]: ../reference/wsl-conf.md/#wslconf
