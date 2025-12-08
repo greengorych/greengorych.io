@@ -2,7 +2,7 @@
 draft: false
 date:
   created: 2025-10-24
-  updated: 2025-11-04
+  updated: 2025-12-08
 authors:
   - greengorych
 categories:
@@ -23,14 +23,18 @@ Then I turned my attention to WSL, specifically its second version. It proved to
 
 Over time, I wanted to dig deeper. What capabilities does WSL offer, how can it be managed, configured, and used to automate routine tasks? I began studying the documentation, searching for information, and testing configurations I found in various sources.
 
-In the process, I realized that the official documentation was incomplete and sometimes contained inaccuracies. Many things were described unclearly or not described at all, for example, `cloud-init`. Other sources turned out to be too general, superficial, and did not provide concrete answers.
+In the process, I realized that the official documentation was incomplete and sometimes contained inaccuracies. Many things were described unclearly or not described at all, for example, [`cloud-init`][cloud-init]{ data-preview }. Other sources turned out to be too general, superficial, and did not provide concrete answers.
 
 Despite its apparent simplicity (compared to the core IT infrastructure I had worked with before), the WSL ecosystem was anything but trivial. It required many weeks of study and numerous experiments.
 
 While collecting data, I tested everything in practice and recorded it as notes. Later, I felt the desire to share my observations. I chose one of the subreddits dedicated to WSL and started publishing my materials there.
 
-After several months of working on publications about the WSL environment, `cloud-init`, and configuration of `wsl.conf` and `.wslconfig`, I couldn’t handle the internal pressure and deleted everything.
+After several months of working on publications about the WSL environment, [`cloud-init`][cloud-init]{ data-preview }, and configuration of [`wsl.conf`][wsl.conf]{ data-preview } and [`.wslconfig`][.wslconfig]{ data-preview }, I couldn’t handle the internal pressure and deleted everything.
 
 But, as is known, when one door closes, another opens. After long consideration, I decided to fulfill a long-standing dream: to create my own blog and publish the previously written texts, having reworked them.
 
 This blog is a desire to systematize accumulated knowledge and share my experience. Here I will write about WSL, automation, environment configuration, and everything that makes development more convenient. And perhaps not only that.
+
+[cloud-init]: ../reference/index.md/#cloud-init
+[.wslconfig]: ../reference/wslconfig.md/#wslconfig
+[wsl.conf]: ../reference/wsl-conf.md/#wslconf
