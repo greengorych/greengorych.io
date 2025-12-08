@@ -535,6 +535,7 @@ nav:
           - wsl.conf: reference/wsl-conf.md
           - wsl-distribution.conf: reference/wsl-distribution-conf.md
       - Settings:
+          - Paths: reference/paths.md
           - Registry: reference/registry.md
       - Scripts:
           - OOBE script: reference/oobe-script.md
