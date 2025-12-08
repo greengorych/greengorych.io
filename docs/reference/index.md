@@ -21,6 +21,10 @@ A distribution is an archive containing the `rootfs` of the operating system bei
 
 An instance is a system installed from a distribution, ready to run or already running.
 
+### cloud-init
+
+`cloud-init` is a system designed to automatically configure a Linux distribution during its first boot.
+
 ## Configuration terms
 
 ---
