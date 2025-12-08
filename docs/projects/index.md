@@ -9,7 +9,7 @@ title: >-
 
 This section provides a list of development projects and links to instructions on how to use them.
 
-## wsl-configs
+## WSL configurations
 
 ---
 
