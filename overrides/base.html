@@ -38,7 +38,7 @@
           <link rel="alternate" href="{{ alt.link | url }}" hreflang="{{ alt.lang | d(lang.t('language')) }}">
         {% endfor %}
       {% endif %}
-      <link rel="icon" href="{{ config.theme.favicon | url }}">
+      <link rel="icon" href="{{ config.theme.favicon | url }}" type="image/svg+xml" sizes="any">
       {% if not config.extra.generator == false %}
         <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.7.0">
       {% endif %}
