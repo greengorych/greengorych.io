@@ -68,7 +68,7 @@ systemd = true
 
 ### Fully qualified setting name
 
-`section.setting` is a fully qualified setting name used to reference a configuration option located in a specific section of a configuration file. In documentation or articles, may encounter examples like `{==boot.systemd==}` or `{==boot.systemd = true==}`, which use the fully qualified setting name to unambiguously indicate where the setting resides
+`section.setting` is a fully qualified setting name used to reference a configuration option located in a specific section of a configuration file. In documentation or articles, may encounter examples like `boot.systemd` or `boot.systemd = true`, which use the fully qualified setting name to unambiguously indicate where the setting resides
 
 In this example, both the section and the setting are highlighted:
 
