@@ -539,6 +539,8 @@ nav:
           - Registry: reference/registry.md
       - Scripts:
           - OOBE script: reference/oobe-script.md
+      - Addons:
+          - Distributions list: reference/distributions-list.md
   - Projects:
       - projects/index.md
       - wsl-configs: projects/wsl-configs.md
