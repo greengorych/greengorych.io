@@ -38,7 +38,7 @@ The unofficial, ready-to-use list of additional WSL distributions consists of:
     An updated, additional list of WSL distributions is available in the [Distributions list][distributions-list] section of the Refference
 
 
-[distributions-list]: ../reference/distributions-list/
+[distributions-list]: ../reference/distributions-list.md
 
 ## Local setup
 
