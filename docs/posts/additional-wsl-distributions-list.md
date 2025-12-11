@@ -2,7 +2,7 @@
 draft: false
 date:
   created: 2025-12-01
-  updated: 2025-12-05
+  updated: 2025-12-11
 authors:
   - greengorych
 categories:
@@ -32,6 +32,13 @@ The unofficial, ready-to-use list of additional WSL distributions consists of:
 | Ubuntu 25.04            | amd64, arm64 |
 | Ubuntu 25.10            | amd64, arm64 |
 | Ubuntu 26.04 Snapshot 1 | amd64, arm64 |
+
+
+!!! info
+    An updated, additional list of WSL distributions is available in the [Distributions list][distributions-list] section of the Refference
+
+
+[distributions-list]: ../reference/distributions-list/
 
 ## Local setup
 
