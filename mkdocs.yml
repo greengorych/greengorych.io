@@ -478,8 +478,6 @@ markdown_extensions:
   - pymdownx.betterem
   - pymdownx.blocks.caption
   - pymdownx.caret
-  - pymdownx.critic:
-      mode: view
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
