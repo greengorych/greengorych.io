@@ -102,199 +102,199 @@ The settings described below apply to the `[wsl2]` section.
 #### `swapFile`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:88:94"
+--8<-- ".wslconfig/.wslconfig:87:93"
 ```
 
 #### `networkingMode`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:96:108"
+--8<-- ".wslconfig/.wslconfig:95:107"
 ```
 
 #### `vmSwitch`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:110:117"
+--8<-- ".wslconfig/.wslconfig:109:116"
 ```
 
 #### `macAddress`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:119:124"
+--8<-- ".wslconfig/.wslconfig:118:123"
 ```
 
 #### `dhcp`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:126:133"
+--8<-- ".wslconfig/.wslconfig:125:132"
 ```
 
 #### `dhcpTimeout`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:135:141"
+--8<-- ".wslconfig/.wslconfig:134:140"
 ```
 
 #### `ipv6`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:143:150"
+--8<-- ".wslconfig/.wslconfig:142:149"
 ```
 
 #### `localhostForwarding`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:152:159"
+--8<-- ".wslconfig/.wslconfig:151:158"
 ```
 
 #### `dnsProxy`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:161:167"
+--8<-- ".wslconfig/.wslconfig:160:166"
 ```
 
 #### `dnsTunneling`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:169:177"
+--8<-- ".wslconfig/.wslconfig:168:176"
 ```
 
 #### `firewall`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:179:185"
+--8<-- ".wslconfig/.wslconfig:178:184"
 ```
 
 #### `autoProxy`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:187:193"
+--8<-- ".wslconfig/.wslconfig:186:192"
 ```
 
 #### `kernel`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:195:199"
+--8<-- ".wslconfig/.wslconfig:194:198"
 ```
 
 #### `kernelCommandLine`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:201:205"
+--8<-- ".wslconfig/.wslconfig:200:204"
 ```
 
 #### `kernelBootTimeout`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:207:210"
+--8<-- ".wslconfig/.wslconfig:206:209"
 ```
 
 #### `kernelModules`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:212:216"
+--8<-- ".wslconfig/.wslconfig:211:215"
 ```
 
 #### `loadKernelModules`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:218:222"
+--8<-- ".wslconfig/.wslconfig:217:221"
 ```
 
 #### `loadDefaultKernelModules`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:224:231"
+--8<-- ".wslconfig/.wslconfig:223:230"
 ```
 
 #### `kernelDebugPort`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:233:238"
+--8<-- ".wslconfig/.wslconfig:232:237"
 ```
 
 #### `hostFileSystemAccess`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:240:246"
+--8<-- ".wslconfig/.wslconfig:239:245"
 ```
 
 #### `virtio`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:248:257"
+--8<-- ".wslconfig/.wslconfig:247:256"
 ```
 
 #### `virtio9p`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:259:266"
+--8<-- ".wslconfig/.wslconfig:258:265"
 ```
 
 #### `virtiofs`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:268:278"
+--8<-- ".wslconfig/.wslconfig:267:277"
 ```
 
 #### `mountDeviceTimeout`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:280:284"
+--8<-- ".wslconfig/.wslconfig:279:283"
 ```
 
 #### `guiApplications`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:286:292"
+--8<-- ".wslconfig/.wslconfig:285:291"
 ```
 
 #### `systemDistro`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:294:299"
+--8<-- ".wslconfig/.wslconfig:293:298"
 ```
 
 #### `safeMode`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:301:307"
+--8<-- ".wslconfig/.wslconfig:300:306"
 ```
 
 #### `debugConsole`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:309:316"
+--8<-- ".wslconfig/.wslconfig:308:315"
 ```
 
 #### `earlyBootLogging`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:318:325"
+--8<-- ".wslconfig/.wslconfig:317:324"
 ```
 
 #### `debugConsoleLogFile`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:327:331"
+--8<-- ".wslconfig/.wslconfig:326:330"
 ```
 
 #### `maxCrashDumpCount`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:333:340"
+--8<-- ".wslconfig/.wslconfig:332:339"
 ```
 
 #### `crashDumpFolder`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:342:347"
+--8<-- ".wslconfig/.wslconfig:341:346"
 ```
 
 #### `telemetry`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:349:355"
+--8<-- ".wslconfig/.wslconfig:348:354"
 ```
 
 ### `experimental`
@@ -306,43 +306,43 @@ The settings described below apply to the `[experimental]` section.
 #### `autoMemoryReclaim`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:371:378"
+--8<-- ".wslconfig/.wslconfig:370:377"
 ```
 
 #### `sparseVhd`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:380:386"
+--8<-- ".wslconfig/.wslconfig:379:385"
 ```
 
 #### `bestEffortDnsParsing`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:388:396"
+--8<-- ".wslconfig/.wslconfig:387:395"
 ```
 
 #### `dnsTunnelingIpAddress`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:398:404"
+--8<-- ".wslconfig/.wslconfig:397:403"
 ```
 
 #### `initialAutoProxyTimeout`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:406:410"
+--8<-- ".wslconfig/.wslconfig:405:409"
 ```
 
 #### `ignoredPorts`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:412:417"
+--8<-- ".wslconfig/.wslconfig:411:416"
 ```
 
 #### `hostAddressLoopback`
 
 ``` ini
---8<-- ".wslconfig/.wslconfig:419:426"
+--8<-- ".wslconfig/.wslconfig:418:425"
 ```
 
 ## Full configuration
