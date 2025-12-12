@@ -26,7 +26,7 @@ The WSL GitHub repository contains several closed issues where crash dumps were 
 
 By default, crash dumps are kept in the folder:
 
-``` { .powershell .no-select }
+``` { .powershell .no-copy .no-select }
 C:\Users\<UserName>\AppData\Local\Temp\wsl-crashes
 ```
 
@@ -78,7 +78,7 @@ If the dumps are of no value, the folder containing them can simply be deleted.
 
 WSL creates a shared swap file for all running instances with the path:
 
-``` { .powershell .no-select }
+``` { .powershell .no-copy .no-select }
 C:\Users\<UserName>\AppData\Local\Temp\<GUID>\swap.vhdx
 ```
 
@@ -121,7 +121,7 @@ Orphaned SWAPs can be found using the following commands:
 
 But first, shut down WSL so it doesn’t interfere with active swap file:
 
-``` { powershell .no-select }
+``` { .powershell .no-select }
 wsl --shutdown
 ```
 
