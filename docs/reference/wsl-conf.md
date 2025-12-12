@@ -91,7 +91,7 @@ The settings described below are located in the `[automount]` section.
 #### `options`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:76:106"
+--8<-- "wsl.conf/wsl.conf:77:128"
 ```
 
 ### network
@@ -103,19 +103,19 @@ The settings described below are located in the `[network]` section.
 #### `hostname`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:110:115"
+--8<-- "wsl.conf/wsl.conf:132:137"
 ```
 
 #### `generateHosts`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:117:124"
+--8<-- "wsl.conf/wsl.conf:139:146"
 ```
 
 #### `generateResolvConf`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:126:133"
+--8<-- "wsl.conf/wsl.conf:148:155"
 ```
 
 ### gpu
@@ -127,13 +127,13 @@ The settings described below are located in the `[gpu]` section.
 #### `enabled`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:137:144"
+--8<-- "wsl.conf/wsl.conf:159:166"
 ```
 
 #### `appendLibPath`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:146:153"
+--8<-- "wsl.conf/wsl.conf:168:175"
 ```
 
 ### time
@@ -145,7 +145,7 @@ The settings described below are located in the `[time]` section.
 #### `useWindowsTimezone`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:157:164"
+--8<-- "wsl.conf/wsl.conf:179:186"
 ```
 
 ### interop
@@ -157,13 +157,13 @@ The settings described below are located in the `[interop]` section.
 #### `enabled`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:168:175"
+--8<-- "wsl.conf/wsl.conf:190:197"
 ```
 
 #### `appendWindowsPath`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:177:184"
+--8<-- "wsl.conf/wsl.conf:199:206"
 ```
 
 ### user
@@ -175,7 +175,7 @@ The settings described below are located in the `[user]` section.
 #### `default`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:188:192"
+--8<-- "wsl.conf/wsl.conf:210:214"
 ```
 
 ## Full configuration
