@@ -31,11 +31,25 @@ An instance is a system installed from a distribution, ready to run or already r
 
 ### Configuration format
 
-WSL configuration files: [`.wslconfig`][.wslconfig]{ data-preview }, [`wsl.conf`][wsl-conf]{ data-preview }, [`wsl-distribution.conf`][wsl-distribution-conf]{ data-preview } use the INI format, in which settings are grouped into sections.
+#### Main configurations
+
+- [`.wslconfig`][.wslconfig]{ data-preview }
+- [`wsl.conf`][wsl-conf]{ data-preview }
+- [`wsl-distribution.conf`][wsl-distribution-conf]{ data-preview }
 
 [.wslconfig]: wslconfig.md/#wslconfig
 [wsl-conf]: wsl-conf.md/#wslconf
 [wsl-distribution-conf]: wsl-distribution-conf.md/#wsl-distributionconf
+
+**Description**
+
+- Configuration files use the INI format, where settings are grouped into sections.
+- Each section name in the configuration file is specified only once.
+- The order of sections and the order of settings within sections does not matter.
+
+!!! info
+    - All configuration examples explicitly specify the section each setting belongs to. This means the setting must be placed in that section.
+    - The current order of sections and settings in configurations is chosen for logical grouping.
 
 ### Section name
 
