@@ -37,7 +37,7 @@ To avoid the situation where the disk fills up with dumps, saving can be disable
 ``` { .ini }
 [wsl2]
 
---8<-- ".wslconfig/.wslconfig:332:338"
+--8<-- ".wslconfig/.wslconfig:336:342"
 MaxCrashDumpCount = 0
 ```
 
@@ -46,7 +46,7 @@ Or completely disable their collection:
 ``` { .ini }
 [wsl2]
 
---8<-- ".wslconfig/.wslconfig:332:338"
+--8<-- ".wslconfig/.wslconfig:336:342"
 MaxCrashDumpCount = -1
 ```
 
@@ -67,8 +67,9 @@ To check for crash dumps, use the following commands:
 The storage location can also be changed by defining a new and controlled one:
 
 ``` ini
+[wsl2 ]
 
---8<-- ".wslconfig/.wslconfig:341:345"
+--8<-- ".wslconfig/.wslconfig:345:349"
 crashDumpFolder = C:\\Path\\To\\wsl-crashes
 ```
 
