@@ -90,7 +90,7 @@ If a system has enough RAM, the paging file can be completely disabled:
 ```ini
 [wsl2]
 
---8<-- ".wslconfig/.wslconfig:78:85"
+--8<-- ".wslconfig/.wslconfig:78:84"
 swap = 0
 ```
 
