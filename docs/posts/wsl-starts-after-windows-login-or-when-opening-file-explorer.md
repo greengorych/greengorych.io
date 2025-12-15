@@ -17,7 +17,7 @@ While going through old materials previously posted on Reddit, I came across a p
 
 <!-- more -->
 
-I noticed unusual behavior in WSL: after enabling [`wsl2.debugConsole`][wsl2.debugconsole]{ data-preview } in the [`.wslconfig`][.wslconfig]{ data-preview } configuration, one or more WSL instances would automatically start in two situations:
+I noticed unusual behavior in WSL: after enabling [`debugConsole`][debugconsole]{ data-preview } in the [`.wslconfig`][.wslconfig]{ data-preview } configuration, one or more WSL instances would automatically start in two situations:
 
 - Right after logging into Windows
 - Every time I opened File Explorer
@@ -35,4 +35,4 @@ This can also happen if shortcuts to such files are created or pinned to File Ex
 - Avoid opening files directly from `\\wsl$\...` using Windows applications
 
 [.wslconfig]: ../reference/wslconfig.md/#wslconfig
-[wsl2.debugconsole]: ../reference/wslconfig.md/#debugconsole
+[debugconsole]: ../reference/wslconfig.md/#debugconsole
