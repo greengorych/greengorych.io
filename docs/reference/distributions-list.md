@@ -45,7 +45,7 @@ wsl --install CentOS
 Installs CentOS Stream 10, which is specified as the default for the entire family.
 
 !!! info
-  If specify Ubuntu as the distribution family name during installation, Ubuntu 24.04 LTS, which is specified as the default in the main list of distributions, will be installed.
+    If specify Ubuntu as the distribution family name during installation, Ubuntu 24.04 LTS, which is specified as the default in the main list of distributions, will be installed.
 
 ### Distribution Name
 
