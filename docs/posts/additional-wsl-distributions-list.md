@@ -13,10 +13,7 @@ description: >-
 
 # Additional WSL Distributions List
 
-I've been using an additional set of distributions for quite some time to install versions missing from the official manifest, as well as my own custom ones. After the announcement of the release of [Ubuntu 26.04 Snapshot 1][Ubuntu 26.04 Snapshot 1], I expanded the list and published it in the WSL configuration repository — [**wsl-configs**][wsl-configs].
-
-[Ubuntu 26.04 Snapshot 1]: installing-ubuntu-26-04-on-wsl.md
-[wsl-configs]: https://github.com/greengorych/wsl-configs
+I've been using an additional set of distributions for quite some time to install versions missing from the official manifest, as well as my own custom ones. After the announcement of the release of [Ubuntu 26.04 Snapshot 1][Ubuntu 26.04 Snapshot 1], I expanded the list and published it in the WSL configuration repository — [wsl-configs][wsl-configs].
 
 <!-- more -->
 
@@ -37,14 +34,9 @@ The unofficial, ready-to-use list of additional WSL distributions consists of:
 !!! info
     An updated, additional list of WSL distributions is available in the [Distributions list][distributions-list] section of the Refference
 
-
-[distributions-list]: ../reference/distributions-list.md
-
 ## Local setup
 
 The manifest can be downloaded from the following link: [distributions.json][distributions.json].
-
-[distributions.json]: https://raw.githubusercontent.com/greengorych/wsl-configs/main/distributions/distributions.json
 
 Then connect it locally using the commands below (run as Administrator):
 
@@ -121,7 +113,7 @@ To disable the list, use the following commands (run as administrator):
 
     ``` { .powershell .no-select }
     Remove-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss" `
-      -Name "DistributionListUrlAppend"  `
+      -Name "DistributionListUrlAppend" `
       -Force
     ```
 
@@ -132,3 +124,7 @@ To disable the list, use the following commands (run as administrator):
     /v "DistributionListUrlAppend" ^
     /f
     ```
+[distributions-list]: ../reference/distributions-list.md
+[Ubuntu 26.04 Snapshot 1]: installing-ubuntu-26-04-on-wsl.md
+[wsl-configs]: https://github.com/greengorych/wsl-configs
+[distributions.json]: https://raw.githubusercontent.com/greengorych/wsl-configs/main/distributions/distributions.json
