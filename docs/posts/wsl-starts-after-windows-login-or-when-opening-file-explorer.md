@@ -2,7 +2,7 @@
 draft: false
 date:
   created: 2025-11-13
-  updated: 2025-11-13
+  updated: 2025-12-15
 authors:
   - greengorych
 categories:
@@ -17,19 +17,22 @@ While going through old materials previously posted on Reddit, I came across a p
 
 <!-- more -->
 
-I noticed unusual behavior in WSL: after enabling the debug console (`debugConsole=true`) in the `.wslconfig` configuration, one or more WSL instances would automatically start in two situations:
+I noticed unusual behavior in WSL: after enabling [`wsl2.debugConsole`][wsl2.debugconsole]{ data-preview } in the [`.wslconfig`][.wslconfig]{ data-preview } configuration, one or more WSL instances would automatically start in two situations:
 
-- Right after logging into Windows.
-- Every time I opened File Explorer.
+- Right after logging into Windows
+- Every time I opened File Explorer
 
 After a little research, I realized that this happens if I previously opened files located within WSL using the path `\\wsl$\<DistroName>\...`. These files appear in File Explorer's "Recent" section.
 
 This can also happen if shortcuts to such files are created or pinned to File Explorer's Quick Access toolbar.
 
-**Workarounds**:
+## Workarounds
 
-- Clear File Explorer history in Folder Options.
-- Disable "Show recently used files" in Folder Options.
-- Remove shortcuts containing the path `\\wsl$\...`.
-- Unpin such shortcuts from the Quick Access toolbar.
-- Avoid opening files directly from `\\wsl$\...` using Windows applications.
+- Clear File Explorer history in Folder Options
+- Disable "Show recently used files" in Folder Options
+- Remove shortcuts containing the path `\\wsl$\...`
+- Unpin such shortcuts from the Quick Access toolbar
+- Avoid opening files directly from `\\wsl$\...` using Windows applications
+
+[.wslconfig]: ../reference/wslconfig.md/#wslconfig
+[wsl2.debugconsole]: ../reference/wslconfig.md/#debugconsole
