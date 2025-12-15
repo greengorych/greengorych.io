@@ -1,6 +1,6 @@
 ---
 description: >-
-  Development projects: configuration files and documentation.
+  Development projects: main and additional configuration files and technical documentation.
 title: >-
   Development projects: configuration files and technical documentation
 ---
