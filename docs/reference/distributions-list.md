@@ -16,22 +16,70 @@ An unofficial, ready-to-use manifest of additional WSL distributions not include
 
 The unofficial, ready-to-use list of additional WSL distributions consists of:
 
-| Distribution            | Architecture |
-| ----------------------- | ------------ |
-| CentOS Stream 9         | amd64, arm64 |
-| CentOS Stream 10        | amd64, arm64 |
-| NixOS 25.05             | amd64        |
-| Rocky Linux 9.7         | amd64, arm64 |
-| Rocky Linux 10.1        | amd64, arm64 |
-| Ubuntu 25.04            | amd64, arm64 |
-| Ubuntu 25.10            | amd64, arm64 |
-| Ubuntu 26.04 Snapshot 1 | amd64, arm64 |
+| Distribution Family Name | Distribution Name | Distribution Friendly Name | Architecture | Default |
+| ------------------------ | ------------------| -------------------------- | ------------ | ------- |
+| CentOS                   | CentOS-Stream-9   | CentOS Stream 9            | amd64, arm64 | false   |
+| CentOS                   | CentOS-Stream-10  | CentOS Stream 10           | amd64, arm64 | true    |
+| NixOS                    | NixOS-25.05       | NixOS 25.05                | amd64        | true    |
+| Rocky                    | Rocky-Linux-9.7   | Rocky Linux 9.7            | amd64, arm64 | false   |
+| Rocky                    | Rocky-Linux-10.1  | Rocky Linux 10.1           | amd64, arm64 | true    |
+| Ubuntu                   | Ubuntu-25.04      | Ubuntu 25.04               | amd64, arm64 | false   |
+| Ubuntu                   | Ubuntu-25.10      | Ubuntu 25.10               | amd64, arm64 | false   |
+| Ubuntu                   | Ubuntu-26.04      | Ubuntu-26.04 Snapshot 1    | amd64, arm64 | false   |
+
+
+## Description
+
+---
+
+### Distribution Family Name
+
+The name of the distribution family is used to install the distribution of the family specified as default.
+
+Example of installing a distribution using a family name:
+
+``` { .powershell .no-select}
+wsl --install CentOS
+```
+
+Installs CentOS Stream 10, which is specified as the default for the entire family.
+
+!!! info
+  If specify Ubuntu as the distribution family name during installation, Ubuntu 24.04 LTS, which is specified as the default in the main list of distributions, will be installed.
+
+### Distribution Name
+
+The name of the specific distribution used for installation.
+
+Example of installing a specific distribution:
+
+``` { .powershell .no-select}
+wsl --install Rocky-Linux-9.7
+```
+
+Install Rocky Linux 9.7.
+
+### Distribution Friendly Name
+
+Distribution Friendly Name is a user-friendly and convenient name of the distribution.
+
+### Architecture
+
+Architecture shows the availability of the distribution for the specified processor architecture type: amd64 and arm64. During installation, the distribution corresponding to the processor architecture will be selected.
+
+### Default
+
+The default distribution for the entire distribution family. Specifies the distribution that will be installed when using the distribution family name in the installation command:
+
+``` { .powershell .no-select}
+wsl --install <Distribution Family Name>
+```
 
 ## How to use
 
 ---
 
-### Local setup
+### Local registeration
 
 The manifest can be downloaded from the following link: [distributions.json][distributions.json].
 
@@ -61,7 +109,7 @@ Then connect it locally using the commands below (run as Administrator):
 !!! info
     Change `file:///path/to/distributions.json` to real absolute file path.
 
-### Connecting from repository
+### Registration from repository
 
 To connect the configuration from the repository, use the following commands (run as administrator):
 
@@ -86,7 +134,7 @@ To connect the configuration from the repository, use the following commands (ru
 
 ### Verification
 
-After enabling the list, can check the distributions available for installation using the command:
+After registering the list, the distributions available for installation can be checked using the command:
 
 ``` { .powershell .no-select }
 wsl --list --online
@@ -106,7 +154,7 @@ Ubuntu-25.10        Ubuntu 25.10
 Ubuntu-26.04        Ubuntu 26.04 Snapshot 1
 ```
 
-### Disabling list
+### Unregistering
 
 To disable the list, use the following commands (run as administrator):
 
@@ -114,7 +162,7 @@ To disable the list, use the following commands (run as administrator):
 
     ``` { .powershell .no-select }
     Remove-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss" `
-      -Name "DistributionListUrlAppend"  `
+      -Name "DistributionListUrlAppend" `
       -Force
     ```
 
