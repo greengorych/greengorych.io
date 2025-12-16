@@ -1,28 +1,28 @@
 ---
 description: >-
-  Licensing information for the materials on the site: texts and articles are distributed under CC BY-SA 4.0, and code examples and configurations are licensed under the MIT license.
+  Licensing information for the materials on the site: texts and reference are distributed under CC BY-SA 4.0, and code examples and configurations are licensed under the MIT license.
 ---
 
-# Licenses
+# Terms of Use
 
-## Texts and articles
+## Texts and reference
 
-All textual materials on this website are distributed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.en) license.
+All textual on the [blog][blog] and reference materials on the [Reference][reference] section this website are distributed under the [CC BY-SA 4.0 license][license-cc-by-sa].
 
 This means you may:
 
-- copy and redistribute the materials
-- adapt and modify them, provided that the author is credited and the same license is preserved
+- Copy and redistribute the materials.
+- Adapt and modify them, provided that the author is credited and the same license is preserved.
 
 ## Code and configuration examples
 
-All code samples, scripts, and configuration files are published under the [MIT](https://opensource.org/license/mit) license.
+All code samples, scripts, and configuration files are published under the [MIT license][license-mit].
 
 This means you may:
 
-- freely use them in any projects, including commercial ones
-- modify and adapt them to your needs
-- distribute the source files
+- Freely use them in any projects, including commercial ones.
+- Modify and adapt them to your needs.
+- Distribute the source files.
 
 ## Disclaimer
 
@@ -30,6 +30,11 @@ The materials on this website are provided "as is", without any warranties, expr
 
 By using the materials on this website, you agree that:
 
-- you do so at your own risk
-- you take full responsibility for the results of applying the information and code
-- the author is not liable for any direct or indirect damages, including loss of data or profit
+- You do so at your own risk.
+- You take full responsibility for the results of applying the information and code.
+- The author is not liable for any direct or indirect damages, including loss of data or profit.
+
+[blog]: ../index.md
+[reference]: ../reference/index.md
+[license-cc-by-sa]: license-cc-by-sa.md
+[license-mit]: license-mit.md
