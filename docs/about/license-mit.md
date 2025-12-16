@@ -1,6 +1,6 @@
 ---
 description: >-
-  MIT license for code examples and configurations published on the site.
+  MIT license covering code examples and configuration files published on the site.
 ---
 
 # MIT License
