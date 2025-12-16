@@ -548,6 +548,7 @@ nav:
       - about/index.md
       - Legal:
           - Terms of Use: about/terms-of-use.md
+          - CC BY-SA license: about/license-cc-by-sa.md
           - MIT license: about/license-mit.md
 
 # Additional templates
