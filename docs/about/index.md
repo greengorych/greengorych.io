@@ -1,7 +1,6 @@
 ---
 description: >-
-  Information about the site, licensing, and terms of use of the materials.
-title: About the site
+  Information about the site, its purpose, licensing, and terms of use.
 ---
 
 # About the site
