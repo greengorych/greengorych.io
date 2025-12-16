@@ -1,3 +1,8 @@
+---
+description: >-
+  MIT license for code examples and configurations published on the site.
+---
+
 # MIT License
 
 Copyright (c) 2025 Sergei Tilipin
