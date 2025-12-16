@@ -546,7 +546,8 @@ nav:
       - wsl-configs: projects/wsl-configs.md
   - About:
       - about/index.md
-      - Licenses: about/licenses.md
+      - Licenses:
+          - Terms of Use: about/terms-of-use.md
 
 # Additional templates
 extra_templates:
