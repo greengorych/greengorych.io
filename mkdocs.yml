@@ -13,13 +13,13 @@ site_name: GreenGorych
 site_url: https://greengorych.io
 
 # Repository URL
-# repo_url: https://github.com/greengorych/greengorych.io
+repo_url: https://github.com/greengorych/greengorych.io
 
 # Repository name
-# repo_name: greengorych/greengorych.io
+repo_name: greengorych/greengorych.io
 
 # Repository edit URL
-# edit_uri: edit/main/docs/
+edit_uri: edit/main/docs/
 
 # Copyright setting
 copyright: >-
@@ -39,9 +39,9 @@ theme:
   # Theme features
   features:
     # Enables repository code edit icon
-    # - content.action.edit
+    - content.action.edit
     # Enables repository code view icon
-    # - content.action.view
+    - content.action.view
     # Enables adding comments to sections of a code block
     - content.code.annotate
     # Enables the button to copy a block of code
