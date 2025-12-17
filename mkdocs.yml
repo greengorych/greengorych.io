@@ -354,6 +354,41 @@ plugins:
               # Enable or disable removing optional attribute quotes
               remove_optional_attribute_quotes: true
 
+        # Privacy plugin settings
+        - privacy:
+            # Enables or disables the privacy plugin
+            enabled: true
+            # Specifies the number of processors used for parallel processing of external resources
+            concurrency: 1
+            # Enable or disable caching of downloaded external assets
+            cache: false
+            # Sets the directory used to store cached assets
+            cache_dir: .cache
+            # Enable or disable logging
+            log: false
+            # Sets the logging level (e.g. error, warn, info, debug)
+            log_level: error
+            # Enable or disable processing of external assets
+            assets: true
+            # Enable or disable downloading external assets
+            assets_fetch: true
+            # Specifies the directory to save fetched resources
+            assets_fetch_dir: assets
+            # Explicit list of external assets to include
+            # assets_include:
+            # Explicit list of external assets to exclude
+            assets_exclude:
+              - fonts.googleapis.com/*
+              - fonts.gstatic.com/*
+            # Enable or disable processing of external links
+            links: true
+            # Map of attributes to add or override on external links
+            links_attr_map:
+              # Specifies target attribute that should be added to external links
+              target: _blank
+            # Adds the rel="noopener" attribute to external links that open in a new window
+            links_noopener: true
+
         # RSS plugin settings
         - rss:
             # Number of characters for automatic announcement trimming
