@@ -319,18 +319,34 @@ plugins:
 
       # List of plugins
       plugins:
-        # Minify plugin setings
+        # Minify plugin settings
         - minify:
-            # Enables o disables HTML minification
+            # Enable or disable CSS minification
+            minify_css: false
+            # Enable or disable HTML minification
             minify_html: true
-            # Enables o disables JavaScript minification
-            minify_js: true
-            # Enables o disables CSS minification
-            minify_css: true
+            # Enable or disable JavaScript minification
+            minify_js: false
+            # Add a content hash to JS and CSS filenames for cache busting
+            cache_safe: false
+            # Explicit list of CSS files to minify
+            # css_files:
+            #   - assets/stylesheets/*.css
+            # Explicit list of JavaScript files to minify
+            # js_files:
+            #   - assets/javascripts/*.js
             # HTML minification options
             htmlmin_opts:
-              # Enables o disables removal HTML comments
+              # Enable or disable reducing boolean attributes
+              reduce_boolean_attributes: true
+              # Enable or disable removing all whitespace
+              remove_all_empty_space: true
+              # Enable or disable removing whitespace
+              remove_empty_space: false
+              # Enable or disable removing HTML comments
               remove_comments: true
+              # Enable or disable removing optional attribute quotes
+              remove_optional_attribute_quotes: true
 
         # RSS plugin settings
         - rss:
