@@ -7,10 +7,11 @@ title: >-
 
 # Reference
 
-WSL, distribution, and instance configurations contain numerous settings that allow you to customize the environment for various tasks. This section of the reference explains how to configure these components and provides examples that can be used to configure both WSL itself and individual distributions.
+WSL, distribution, and instance configurations contain numerous settings that allow to customize the environment for various tasks. This section of the reference explains how to configure these components and provides examples that can be used to configure WSL itself, individual distributions and instances.
 
 !!! info
     This section does not contain complete or fully verified information about WSL and its environment. Despite the name "Reference", it is only a draft — a skeleton and structure that still needs to be expanded to become a full-fledged reference.
+
 ## Reference structure
 
 ---
@@ -28,17 +29,10 @@ WSL, distribution, and instance configurations contain numerous settings that al
   - terminal-profile.json – _this page is under development_.
   - cloud-init – _this page is under development_.
 
-[conventions]: conventions.md
-[.wslconfig]: wslconfig.md
-[wsl.conf]: wsl-conf.md
-[wsl-distribution.conf]: wsl-distribution-conf.md
-
 ### Settings
 
   - [Paths][paths] – a page listing all key Windows and Linux paths used by WSL and its environment.
   - [Registry][registry] – a page describing the main Windows Registry keys and values used to configure certain WSL settings.
-[paths]: paths.md
-[registry]: registry.md
 
 ### Commands
 
@@ -49,4 +43,15 @@ WSL, distribution, and instance configurations contain numerous settings that al
 ### Scripts
   - [OOBE script][oobe-script] – a page describing the Out-of-Box Experience (OOBE) script and its purpose.
 
+### Addons
+
+- [Additional WSL distributions list][distributions-list] - an unofficial, ready-to-use manifest of additional WSL distributions not included in the official list.
+
+[conventions]: conventions.md
+[.wslconfig]: wslconfig.md
+[wsl.conf]: wsl-conf.md
+[wsl-distribution.conf]: wsl-distribution-conf.md
+[paths]: paths.md
+[registry]: registry.md
+[distributions-list]: distributions-list.md
 [oobe-script]: oobe-script.md
