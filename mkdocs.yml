@@ -269,6 +269,12 @@ plugins:
       categories_toc: false
       # Category pages URL pattern
       categories_url_format: "category/{slug}"
+      # Include or exclude posts marked as drafts when building the site
+      draft: false
+      # Show or hide draft posts when previewing the site
+      draft_on_serve: true
+      # Mark posts with a future date as drafts and include them in the build once the date is reached
+      draft_if_future_date: true
       # Enable blog plugin
       enabled: true
       # Enables or disables pagination
