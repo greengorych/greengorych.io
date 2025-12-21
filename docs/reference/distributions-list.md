@@ -1,7 +1,6 @@
 ---
-description: >-
-  Reference an unofficial ready-to-use WSL distribution list with versions not included in the official manifest, and instructions for enabling and configuring it.
 title: Additional WSL distributions list
+description: Reference an unofficial ready-to-use WSL distribution list with versions not included in the official manifest, and instructions for enabling and configuring it.
 ---
 
 # Additional WSL distributions list
@@ -18,6 +17,7 @@ The unofficial, ready-to-use list of additional WSL distributions consists of:
 
 | Distribution Family Name | Distribution Name | Distribution Friendly Name | Architecture | Default |
 | ------------------------ | ------------------| -------------------------- | ------------ | ------- |
+| Alpine                   | Alpine-3.23.2     | Alpine 3.23.2              | amd64, arm64 | true    |
 | CentOS                   | CentOS-Stream-9   | CentOS Stream 9            | amd64, arm64 | false   |
 | CentOS                   | CentOS-Stream-10  | CentOS Stream 10           | amd64, arm64 | true    |
 | NixOS                    | NixOS-25.05       | NixOS 25.05                | amd64        | true    |
@@ -144,6 +144,7 @@ Additional distributions not included in the official manifest should now appear
 
 ``` { .text .no-copy .no-select }
 NAME                FRIENDLY NAME
+Alpine-3.23.2       Alpine 3.23.2
 CentOS-Stream-9     CentOS Stream 9
 CentOS-Stream-10    CentOS Stream 10
 NixOS-25.05         NixOS 25.05
