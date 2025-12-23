@@ -246,6 +246,7 @@ plugins:
       categories: true
       # List of allowed categories
       categories_allowed:
+        - Alpine
         - General
         - Ubuntu
         - WSL
