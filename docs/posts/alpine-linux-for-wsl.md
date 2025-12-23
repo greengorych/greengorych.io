@@ -5,6 +5,7 @@ date:
 authors:
   - greengorych
 categories:
+  - Alpine
   - WSL
 description: Building a minimalist Alpine Linux distribution for WSL with WSL-specific configurations and support for amd64 and arm64 architectures.
 ---
