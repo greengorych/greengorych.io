@@ -1,6 +1,6 @@
 ---
-description: Reviews, announcements, guides, tutorials and miscellaneous posts about the Windows Subsystem for Linux ecosystem.
 title: WSL
+description: Reviews, announcements, guides, tutorials and miscellaneous posts about the Windows Subsystem for Linux ecosystem.
 ---
 
 # WSL

@@ -1,6 +1,6 @@
 ---
-description: Reviews, announcements and miscellaneous posts on topics related to Ubuntu.
 title: Ubuntu
+description: Reviews, announcements and miscellaneous posts on topics related to Ubuntu.
 ---
 
 # Ubuntu

@@ -1,6 +1,6 @@
 ---
-description: Updates, announcements, and miscellaneous posts on general topics.
 title: General
+description: Updates, announcements, and miscellaneous posts on general topics.
 ---
 
 # General
