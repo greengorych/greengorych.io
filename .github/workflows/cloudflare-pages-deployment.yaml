@@ -1,4 +1,5 @@
 name: Build and deploy site to Cloudflare Pages
+run-name: Build and deploy site to Cloudflare Pages
 
 on:
   push:
@@ -11,14 +12,13 @@ on:
       - "mkdocs.yml"
       - "requirements.txt"
 
-permissions:
-  contents: read
-  deployments: write
-
 jobs:
   build-and-deploy:
     name: Build and deploy site
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
 
     steps:
       - name: Checkout site sources
@@ -33,11 +33,11 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: ${{ vars.PYTHON_VER }}
+          python-version: 3.x
 
       - name: Install Material for MkDocs and dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r requirements.txt --quiet
 
       - name: Build site
         env:
