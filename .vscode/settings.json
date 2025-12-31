@@ -21,6 +21,10 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
   "[markdown]": {
     "editor.wordWrap": "on"
   }
