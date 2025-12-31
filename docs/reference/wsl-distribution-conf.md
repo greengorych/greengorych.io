@@ -1,8 +1,6 @@
 ---
-description: >-
-  Reference for the WSL distribution configuration file wsl-distribution.conf, covering all available sections and settings.
-title: >-
-  Reference for the WSL distribution configuration file wsl-distribution.conf
+title: Reference for the WSL distribution configuration file wsl-distribution.conf
+description: Reference for the WSL distribution configuration file wsl-distribution.conf, covering all available sections and settings.
 ---
 
 # wsl-distribution.conf
@@ -30,19 +28,19 @@ The settings described below are located in the `[oobe]` section.
 #### `command`
 
 ``` ini
---8<-- "wsl-distribution.conf/wsl-distribution.conf:6:9"
+--8<-- "wsl-distribution.conf/wsl-distribution.conf:6:12"
 ```
 
 #### `defaultUid`
 
 ``` ini
---8<-- "wsl-distribution.conf/wsl-distribution.conf:11:14"
+--8<-- "wsl-distribution.conf/wsl-distribution.conf:14:17"
 ```
 
 #### `defaultName`
 
 ``` ini
---8<-- "wsl-distribution.conf/wsl-distribution.conf:16:18"
+--8<-- "wsl-distribution.conf/wsl-distribution.conf:19:21"
 ```
 
 ### Shortcut
@@ -52,13 +50,13 @@ The settings described below are located in the `[shortcut]` section.
 #### `enabled`
 
 ``` ini
---8<-- "wsl-distribution.conf/wsl-distribution.conf:22:27"
+--8<-- "wsl-distribution.conf/wsl-distribution.conf:25:30"
 ```
 
 #### `icon`
 
 ``` ini
---8<-- "wsl-distribution.conf/wsl-distribution.conf:29:32"
+--8<-- "wsl-distribution.conf/wsl-distribution.conf:32:38"
 ```
 
 ### Windows Terminal
@@ -68,13 +66,13 @@ The settings described below are located in the `[windowsterminal]` section.
 #### `enabled`
 
 ``` ini
---8<-- "wsl-distribution.conf/wsl-distribution.conf:36:41"
+--8<-- "wsl-distribution.conf/wsl-distribution.conf:42:47"
 ```
 
 #### `ProfileTemplate`
 
 ``` ini
---8<-- "wsl-distribution.conf/wsl-distribution.conf:43:46"
+--8<-- "wsl-distribution.conf/wsl-distribution.conf:49:55"
 ```
 
 ## Full configuration
