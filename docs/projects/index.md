@@ -19,7 +19,7 @@ This section provides a list of development projects and links to instructions o
 - Designed for WSL 2.
 - OpenRC init system with automatic startup.
 - [`cloud-init`][cloud-init]{ data-preview } configured with the WSL data source.
-- System logging (dmesg, syslog) with log rotation.
+- System logging (dmesg, OpenRC, syslog) with log rotation.
 - Built-in task scheduler (cron).
 
 !!! info
