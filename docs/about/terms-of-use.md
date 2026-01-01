@@ -1,6 +1,6 @@
 ---
-description: >-
-  Licensing terms for text content and code examples published on the site.
+title: Terms of Use
+description: Licensing terms for text content and code examples published on the site.
 ---
 
 # Terms of Use
