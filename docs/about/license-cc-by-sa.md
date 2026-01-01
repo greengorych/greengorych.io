@@ -1,6 +1,6 @@
 ---
-description: >-
-   CC BY-SA 4.0 license covering text content published on the blog and in the Reference section of the site.
+title: CC BY-SA 4.0 license
+description: CC BY-SA 4.0 license covering text content published on the blog and in the Reference section of the site.
 ---
 
 # Attribution-ShareAlike 4.0 International
