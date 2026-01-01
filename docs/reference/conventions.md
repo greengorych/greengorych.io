@@ -1,8 +1,6 @@
 ---
-description: >-
-  Reference guide to terminology, notation, and formatting conventions used throughout this site.
-title: >-
-  Reference guide to terminology, notation, and formatting conventions
+title: Reference guide to terminology, notation, and formatting conventions
+description: Reference guide to terminology, notation, and formatting conventions used throughout this site.
 ---
 
 # Conventions
@@ -68,16 +66,7 @@ A setting is a configurable parameter that controls WSL, a distribution, or inst
 In this example, the setting is highlighted.
 
 ``` { .ini .no-copy .no-select hl_lines="10" }
-[boot]
-
-# Enables systemd support
-# Available in: WSL 2
-# Dependencies: None
-# Default: true
-# Values:
-# - true
-# - false
-systemd = true
+--8<-- "wsl.conf/wsl.conf:4:13"
 ```
 
 ### Fully qualified setting name
@@ -109,7 +98,7 @@ In this example, the setting that has an integer value is highlighted:
 In this example, the setting that has a string value is highlighted:
 
 ``` { .ini .no-copy .no-select hl_lines="10" }
---8<-- ".wslconfig/.wslconfig:369:378"
+--8<-- ".wslconfig/.wslconfig:372:381"
 ```
 
 ### Experimental settings
@@ -124,5 +113,5 @@ An experimental setting is a configuration option that enables features still un
 In this example setting, the `[experimental]` section is highlighted:
 
 ``` { .ini .no-copy .no-select hl_lines="1" }
---8<-- ".wslconfig/.wslconfig:369:378"
+--8<-- ".wslconfig/.wslconfig:372:381"
 ```
