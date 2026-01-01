@@ -1,8 +1,6 @@
 ---
-description: >-
-  Reference for the per-instance WSL configuration file wsl.conf, covering all available sections and settings for both WSL 1 and WSL 2.
-title: >-
-  Reference for the per-instance WSL configuration file wsl.conf
+title: Reference for the per-instance WSL configuration file wsl.conf
+description: Reference for the per-instance WSL configuration file wsl.conf, covering all available sections and settings for both WSL 1 and WSL 2.
 ---
 
 # wsl.conf
@@ -49,7 +47,7 @@ The settings described below are located in the `[boot]` section.
 #### `command`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:24:29"
+--8<-- "wsl.conf/wsl.conf:24:30"
 ```
 
 ### automount
@@ -61,31 +59,31 @@ The settings described below are located in the `[automount]` section.
 #### `enabled`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:33:40"
+--8<-- "wsl.conf/wsl.conf:34:41"
 ```
 
 #### `cgroups`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:42:49"
+--8<-- "wsl.conf/wsl.conf:43:50"
 ```
 
 #### `ldconfig`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:51:58"
+--8<-- "wsl.conf/wsl.conf:52:59"
 ```
 
 #### `mountFsTab`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:60:67"
+--8<-- "wsl.conf/wsl.conf:61:68"
 ```
 
 #### `root`
 
 ``` ini
---8<-- "wsl.conf/wsl.conf:69:74"
+--8<-- "wsl.conf/wsl.conf:70:75"
 ```
 
 #### `options`
