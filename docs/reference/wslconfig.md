@@ -1,8 +1,6 @@
 ---
-description: >-
-  Reference for the global WSL 2 configuration file .wslconfig, covering all available sections and settings.
-title: >-
-  Reference for the global WSL 2 configuration file .wslconfig
+title: Reference for the global WSL 2 configuration file .wslconfig
+description: Reference for the global WSL 2 configuration file .wslconfig, covering all available sections and settings.
 ---
 
 # .wslconfig
@@ -29,11 +27,20 @@ A global WSL 2 configuration file, whose settings apply to all newly installed d
 
 ### general
 
-The settings described below apply to the `[general]` section.
+The settings described below belong to the `[general]` section of the configuration.
 
 ---
 
 #### `distributionInstallPath`
+
+Specifies the absolute path to the WSL distribution installation folder on Windows. Allows overriding the storage path for newly created instances.
+
+  - Has no dependencies.
+  - Default value is `C:\\Users\\<UserName>\\AppData\\Local\\wsl`.
+  - System variables, for example `%USERPROFILE%` are not supported.
+  - The path must use escaped backslashes `\\`.
+
+Example:
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:6:10"
