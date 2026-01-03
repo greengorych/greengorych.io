@@ -1,8 +1,6 @@
 ---
-description: >-
-  Reference information for the WSL Out-of-Box Experience (OOBE) script, including configuration parameters, execution behavior, and distribution-specific details.
-title: >-
-  Reference information for the WSL Out-of-Box Experience (OOBE) script
+title: Reference information for the WSL Out-of-Box Experience (OOBE) script
+description: Reference information for the WSL Out-of-Box Experience (OOBE) script, including configuration parameters, execution behavior, and distribution-specific details.
 ---
 
 # OOBE script
