@@ -17,7 +17,6 @@ A per-instance configuration file used by both WSL 1 and WSL 2 instances, which 
 - Some settings are available only for WSL 2.
 - Located at `/etc/wsl.conf`.
 - Uses the INI format, with settings grouped into sections.
-- Uses the INI format, with settings grouped into sections.
 - Availability of parameters depends on the WSL version and release.
 - Changes take effect only after restarting the instance using `wsl --terminate <InstanceName>`.
 
