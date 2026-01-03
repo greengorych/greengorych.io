@@ -1,8 +1,6 @@
 ---
-description: >-
-  Reference for the main Windows Registry key and several values ​​used to manage some WSL settings
-title: >-
-  Reference for the main Windows Registry key and values
+title: Reference for the main Windows Registry key and values
+description: Reference for the main Windows Registry key and several values ​​used to manage some WSL settings
 ---
 
 # Registry
