@@ -33,10 +33,10 @@ The settings described below belong to the `[general]` section of the configurat
 
 #### `distributionInstallPath`
 
-Specifies the absolute path to the WSL distribution installation folder on Windows. Allows overriding the storage path for newly created instances.
+Specifies the absolute path to the WSL distribution installation folder on Windows. Allows overriding the storage path for newly created [instances][instance]{ data-preview }.
 
   - Has no dependencies.
-  - Default value is `C:\\Users\\<UserName>\\AppData\\Local\\wsl`.
+  - The default value is `C:\\Users\\<UserName>\\AppData\\Local\\wsl`.
   - System variables, for example `%USERPROFILE%` are not supported.
   - The path must use escaped backslashes `\\`.
 
@@ -47,6 +47,11 @@ Example:
 ```
 
 #### `instanceIdleTimeout`
+
+  - Has no dependencies.
+  - The default value is 15000 (15 seconds).
+
+Example:
 
 ``` ini
 --8<-- ".wslconfig/.wslconfig:12:19"
@@ -365,3 +370,5 @@ This is the fully documented global WSL 2 configuration file reference and templ
 ``` ini
 --8<-- ".wslconfig/.wslconfig"
 ```
+
+[instance]: conventions.md/#instance
