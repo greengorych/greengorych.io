@@ -1,18 +1,31 @@
 ---
-description: >-
-  Information about the site, its purpose, licensing, and terms of use.
+title: About the project
+description: Information about the project, its goals, structure, licensing, and terms of use
 ---
 
-# About the site
+# About the project
 
-This site was born out of a series of posts within a Reddit community dedicated to WSL and the realization that information about WSL lacked coherence, consistency, and sufficient depth.
+The project grew out of a series of posts in a Reddit community dedicated to WSL and from the realization that information about the WSL ecosystem is often fragmented, incomplete, occasionally inconsistent, and does not always answer the practical questions users have.
 
-The main goal is to create complete and understandable documentation about the WSL ecosystem: its configurations, commands, operational characteristics, and additional services such as `cloud-init` and Ubuntu Pro for WSL.
+The primary goal of the project is to create clear and comprehensive documentation about the WSL ecosystem: its configurations, commands, behavioral characteristics, additional services, as well as related tools.
 
-The site is a combination of a [blog][blog] and a [reference][reference]. The blog publishes reviews, instructions, and announcements on topics related to WSL and Linux. The reference section collects, organizes, and describes information about the WSL ecosystem.
+The project consists of:
 
-The terms of use for the materials published on this site are described in the [Terms of Use][terms-of-use] section.
 
+- [wsl-config][wsl-config] — a repository with ready-to-use WSL configuration templates.
+- [Additional WSL distributions list][distributions-list] — an unofficial, registerable list of WSL distributions that are not included in the official catalog.
+- A website that includes:
+    - The [Blog][blog], featuring reviews, guides, and announcements related to WSL and Linux.
+    - The [Reference section][reference]**, which organizes and describes information about the WSL ecosystem.
+    - The [Projects][projects] section, describing related initiatives and tools.
+    - The About section, containing information about the project, the [Contributing guide][contributing-guide], [Terms of Use][terms-of-use], and the license texts — [CC BY-SA 4.0][license-cc-by-sa] for text content and [MIT License][license-mit] for code and configuration files.
+
+[wsl-config]: https://github.com/greengorych/wsl-configs
+[distributions-list]: ../reference/distributions-list.md
 [blog]: ../index.md
 [reference]: ../reference/index.md
+[projects]: ../projects/index.md
+[contributing-guide]: contributing-guide.md
 [terms-of-use]: terms-of-use.md
+[license-cc-by-sa]: license-cc-by-sa.md
+[license-mit]: license-mit.md
