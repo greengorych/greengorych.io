@@ -7,7 +7,7 @@ description: Licensing terms for text content and code examples published on the
 
 ## Texts and reference
 
-All textual on the [blog][blog] and reference materials on the [Reference][reference] section this website are distributed under the [CC BY-SA 4.0 license][license-cc-by-sa].
+All textual on the [Blog][blog] and reference materials on the [Reference][reference] section this website are distributed under the [CC BY-SA 4.0 license][license-cc-by-sa].
 
 This means you may:
 
