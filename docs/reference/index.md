@@ -1,8 +1,6 @@
 ---
-description: >-
-  Comprehensive reference for WSL configurations, settings, paths, commands, and related environment details.
-title: >-
-  WSL reference
+title: WSL reference
+description: Comprehensive reference for WSL configurations, settings, paths, commands, and related environment details.
 ---
 
 # Reference
@@ -22,17 +20,17 @@ WSL, distribution, and instance configurations contain numerous settings that al
 
 ### Configurations
 
-  - [.wslconfig][.wslconfig] – an overview of the global configuration file, descriptions of individual settings, and a ready-to-use template.
-  - [wsl.conf][wsl.conf] – an overview of the instance-level configuration file, descriptions of individual settings, and a ready-to-use template.
-  - [wsl-distribution.conf][wsl-distribution.conf] – an overview of the distribution-level configuration file, descriptions of individual settings, and a ready-to-use template.
+  - [.wslconfig][.wslconfig] – a reference of the global configuration file, descriptions of individual settings, and a ready-to-use template.
+  - [wsl.conf][wsl.conf] – a reference of the instance-level configuration file, descriptions of individual settings, and a ready-to-use template.
+  - [wsl-distribution.conf][wsl-distribution.conf] – a reference of the distribution-level configuration file, descriptions of individual settings, and a ready-to-use template.
   - distributions.json – _this page is under development_.
   - terminal-profile.json – _this page is under development_.
   - cloud-init – _this page is under development_.
 
 ### Settings
 
-  - [Paths][paths] – a page listing all key Windows and Linux paths used by WSL and its environment.
-  - [Registry][registry] – a page describing the main Windows Registry keys and values used to configure certain WSL settings.
+  - [Paths][paths] – a reference of all key Windows and Linux paths used by WSL and its environment.
+  - [Registry][registry] – a reference of the main Windows Registry keys and values used to configure certain WSL settings.
 
 ### Commands
 
@@ -41,7 +39,7 @@ WSL, distribution, and instance configurations contain numerous settings that al
   - PowerShell – _this page is under development_.
 
 ### Scripts
-  - [OOBE script][oobe-script] – a page describing the Out-of-Box Experience (OOBE) script and its purpose.
+  - [OOBE script][oobe-script] – a reference of the Out-of-Box Experience (OOBE) script and its purpose.
 
 ### Addons
 
