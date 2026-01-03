@@ -605,6 +605,8 @@ nav:
       - WSL configurations: projects/wsl-configurations.md
   - About:
       - about/index.md
+      - Get involved:
+          - Contributing guide: about/contributing-guide.md
       - Legal:
           - Terms of Use: about/terms-of-use.md
           - CC BY-SA license: about/license-cc-by-sa.md
