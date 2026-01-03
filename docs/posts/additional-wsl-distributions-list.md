@@ -7,8 +7,7 @@ authors:
   - greengorych
 categories:
   - WSL
-description: >-
-  Unofficial ready-to-use WSL distribution list with versions missing from the official manifest, plus instructions for enabling and configuring it.
+description: Unofficial ready-to-use WSL distribution list with versions missing from the official manifest, and instructions for enabling and configuring it.
 ---
 
 # Additional WSL Distributions List
