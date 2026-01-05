@@ -6,6 +6,7 @@ authors:
   - greengorych
 categories:
   - General
+  - WSL
 description: Professional WSL services. Setup, optimization, custom images, CI/CD, and troubleshooting for developers and teams.
 ---
 
@@ -20,8 +21,8 @@ For those who need help not only with instructions but also with implementing so
 - Installation and full configuration of WSL
 - Configuration of WSL instances (Ubuntu, Debian, Rocky, Alpine, etc.)
 - Performance optimization
-- cloud-init configuration and creation of configurations for automatic instance provisioning
-- Creation of custom images for teams and projects
+- `cloud-init` configuration and creation of configurations for automatic instance provisioning
+- Creation of custom distributions for specific tasks, teams and projects
 - Building CI for automated distribution builds
 - Troubleshooting and resolving issues
 - Preparing documentation for developers and teams
