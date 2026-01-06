@@ -603,6 +603,8 @@ nav:
       - projects/index.md
       - Alpine Linux for WSL: projects/alpine-linux-for-wsl.md
       - WSL configurations: projects/wsl-configurations.md
+  - Services:
+      - services/index.md
   - About:
       - about/index.md
       - Get involved:
