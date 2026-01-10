@@ -28,18 +28,24 @@ The settings described below are located in the `[oobe]` section.
 #### `command`
 
 ``` ini
+[oobe]
+
 --8<-- "wsl-distribution.conf/wsl-distribution.conf:6:12"
 ```
 
 #### `defaultUid`
 
 ``` ini
+[oobe]
+
 --8<-- "wsl-distribution.conf/wsl-distribution.conf:14:17"
 ```
 
 #### `defaultName`
 
 ``` ini
+[oobe]
+
 --8<-- "wsl-distribution.conf/wsl-distribution.conf:19:21"
 ```
 
@@ -50,12 +56,16 @@ The settings described below are located in the `[shortcut]` section.
 #### `enabled`
 
 ``` ini
+[shortcut]
+
 --8<-- "wsl-distribution.conf/wsl-distribution.conf:25:30"
 ```
 
 #### `icon`
 
 ``` ini
+[shortcut]
+
 --8<-- "wsl-distribution.conf/wsl-distribution.conf:32:38"
 ```
 
@@ -66,12 +76,16 @@ The settings described below are located in the `[windowsterminal]` section.
 #### `enabled`
 
 ``` ini
+[windowsterminal]
+
 --8<-- "wsl-distribution.conf/wsl-distribution.conf:42:47"
 ```
 
 #### `ProfileTemplate`
 
 ``` ini
+[windowsterminal]
+
 --8<-- "wsl-distribution.conf/wsl-distribution.conf:49:55"
 ```
 
