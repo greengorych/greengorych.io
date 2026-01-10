@@ -40,7 +40,7 @@ This section provides a list of development projects and links to instructions o
 
 ### Additional configurations
 
-- [`distributions`][distributions] – an unofficial, ready-to-use registerable manifest with additional WSL distributions.
+- [Additional WSL distributions list][additional-wsl-distributions-list] – an unofficial, ready-to-use registerable manifest with additional WSL distributions.
 
 !!! info
     More information about configuration files for WSL is available on the [WSL configurations][WSL configurations] project page.
@@ -51,6 +51,6 @@ This section provides a list of development projects and links to instructions o
 [.wslconfig]: ../reference/wslconfig.md
 [wsl.conf]: ../reference/wsl-conf.md
 [wsl-distribution.conf]: ../reference/wsl-distribution-conf.md
-[distributions]: ../reference/distributions-list.md
+[additional-wsl-distributions-list]: additional-wsl-distributions-list.md
 [wsl-configs]: https://github.com/greengorych/wsl-configs
 [WSL configurations]: wsl-configurations.md

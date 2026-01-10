@@ -31,7 +31,7 @@ The unofficial, ready-to-use list of additional WSL distributions consists of:
 
 
 !!! info
-    An updated, additional list of WSL distributions is available in the [Distributions list][distributions-list] section of the Refference
+    An updated, additional list of WSL distributions is available on the [Additional WSL distributions list][additional-wsl-distributions-list] page.
 
 ## Local setup
 
@@ -123,7 +123,7 @@ To disable the list, use the following commands (run as administrator):
     /v "DistributionListUrlAppend" ^
     /f
     ```
-[distributions-list]: ../reference/distributions-list.md
+[additional-wsl-distributions-list]: ../projects/additional-wsl-distributions-list.md
 [Ubuntu 26.04 Snapshot 1]: installing-ubuntu-26-04-on-wsl.md
 [wsl-configs]: https://github.com/greengorych/wsl-configs
 [distributions.json]: https://raw.githubusercontent.com/greengorych/wsl-configs/main/distributions/distributions.json

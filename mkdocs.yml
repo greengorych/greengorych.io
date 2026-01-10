@@ -597,11 +597,10 @@ nav:
           - Registry: reference/registry.md
       - Scripts:
           - OOBE script: reference/oobe-script.md
-      - Addons:
-          - Distributions list: reference/distributions-list.md
   - Projects:
       - projects/index.md
       - Alpine Linux for WSL: projects/alpine-linux-for-wsl.md
+      - Additional WSL distributions list: projects/additional-wsl-distributions-list.md
       - WSL configurations: projects/wsl-configurations.md
   - Services:
       - services/index.md

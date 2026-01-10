@@ -80,8 +80,8 @@ wsl --install Alpine
 ```
 
 !!! info
-    More information about an additional WSL distribution list are available on the [Additional WSL distributions list][Additional WSL distributions list] page.
+    More information about an additional WSL distribution list are available on the [Additional WSL distributions list][additional-wsl-distributions-list] page.
 
 [alpine-for-wsl]: https://github.com/greengorych/alpine-for-wsl
 [cloud-init]: ../reference/conventions.md/#cloud-init
-[Additional WSL distributions list]: ../reference/distributions-list.md
+[additional-wsl-distributions-list]: additional-wsl-distributions-list.md

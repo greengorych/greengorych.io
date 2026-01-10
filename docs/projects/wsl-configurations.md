@@ -75,7 +75,7 @@ Start it again, and after this, the configuration will be applied.
 [Distributions][distributions] – an unofficial, ready-to-use registerable list of additional WSL distributions.
 
 !!! info
-    More information about the additional WSL distributions list is available on the [reference page][distributions-list] page.
+    More information about the additional WSL distributions list is available on the [Additional WSL distributions list][additional-wsl-distributions-list] page.
 
 Or from the repository using commands (run as administrator):
 
@@ -131,4 +131,4 @@ To remove an additional list, use the following commands (run as administrator):
 [wsl-distribution-conf]: ../reference/wsl-distribution-conf.md/#wsl-distributionconf
 [distributions.json]: https://github.com/greengorych/wsl-configs/blob/main/distributions.json/distributions.json
 [distributions]: https://github.com/greengorych/wsl-configs/blob/main/distributions/distributions.json
-[distributions-list]: ../reference/distributions-list.md/#additional-wsl-distributions-list
+[additional-wsl-distributions-list]: additional-wsl-distributions-list.md/#additional-wsl-distributions-list

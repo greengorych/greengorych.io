@@ -2,6 +2,7 @@
 draft: false
 date:
   created: 2025-12-22
+  updated: 2025-12-29
 authors:
   - greengorych
 categories:
@@ -38,7 +39,7 @@ The distribution can be downloaded from the [alpine-for-wsl][alpine-for-wsl] rep
 wsl --install --from-file alpine-3.23.2-2-x86_64.wsl
 ```
 
-To receive the latest Alpine versions, add an additional, regularly updated distribution list. Instructions for adding it are available on the [Additional WSL distributions list][distributions-list] page in the Reference section of the website.
+To receive the latest Alpine versions, add an additional, regularly updated distribution list. Instructions for adding it are available on the [Additional WSL distributions list][additional-wsl-distributions-list] page.
 
 Roadmap:
 
@@ -50,7 +51,7 @@ Roadmap:
 To report a problem or request a feature, use the [issues][alpine-for-wsl-issues] section of the repository.
 
 [alpine-for-wsl]: https://github.com/greengorych/alpine-for-wsl
-[distributions-list]: ../reference/distributions-list.md
+[additional-wsl-distributions-list]: ../projects/additional-wsl-distributions-list.md
 [wsl.conf]: ../reference/wsl-conf.md/#wslconf
 [wsl-distribution.conf]: ../reference/wsl-distribution-conf.md/#wsl-distributionconf
 [oobe-script]: ../reference/oobe-script.md/#oobe-script
