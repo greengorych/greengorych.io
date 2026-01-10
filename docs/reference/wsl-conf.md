@@ -34,18 +34,24 @@ The settings described below are located in the `[boot]` section.
 #### `systemd`
 
 ``` ini
+[boot]
+
 --8<-- "wsl.conf/wsl.conf:6:13"
 ```
 
 #### `protectBinfmt`
 
 ``` ini
+[boot]
+
 --8<-- "wsl.conf/wsl.conf:15:22"
 ```
 
 #### `command`
 
 ``` ini
+[boot]
+
 --8<-- "wsl.conf/wsl.conf:24:30"
 ```
 
@@ -58,36 +64,48 @@ The settings described below are located in the `[automount]` section.
 #### `enabled`
 
 ``` ini
+[automount]
+
 --8<-- "wsl.conf/wsl.conf:34:41"
 ```
 
 #### `cgroups`
 
 ``` ini
+[automount]
+
 --8<-- "wsl.conf/wsl.conf:43:50"
 ```
 
 #### `ldconfig`
 
 ``` ini
+[automount]
+
 --8<-- "wsl.conf/wsl.conf:52:59"
 ```
 
 #### `mountFsTab`
 
 ``` ini
+[automount]
+
 --8<-- "wsl.conf/wsl.conf:61:68"
 ```
 
 #### `root`
 
 ``` ini
+[automount]
+
 --8<-- "wsl.conf/wsl.conf:70:75"
 ```
 
 #### `options`
 
 ``` ini
+[automount]
+
 --8<-- "wsl.conf/wsl.conf:77:128"
 ```
 
@@ -100,18 +118,24 @@ The settings described below are located in the `[network]` section.
 #### `hostname`
 
 ``` ini
+[network]
+
 --8<-- "wsl.conf/wsl.conf:132:137"
 ```
 
 #### `generateHosts`
 
 ``` ini
+[network]
+
 --8<-- "wsl.conf/wsl.conf:139:146"
 ```
 
 #### `generateResolvConf`
 
 ``` ini
+[network]
+
 --8<-- "wsl.conf/wsl.conf:148:155"
 ```
 
@@ -124,12 +148,16 @@ The settings described below are located in the `[gpu]` section.
 #### `enabled`
 
 ``` ini
+[gpu]
+
 --8<-- "wsl.conf/wsl.conf:159:166"
 ```
 
 #### `appendLibPath`
 
 ``` ini
+[gpu]
+
 --8<-- "wsl.conf/wsl.conf:168:175"
 ```
 
@@ -142,6 +170,8 @@ The settings described below are located in the `[time]` section.
 #### `useWindowsTimezone`
 
 ``` ini
+[time]
+
 --8<-- "wsl.conf/wsl.conf:179:186"
 ```
 
@@ -154,12 +184,16 @@ The settings described below are located in the `[interop]` section.
 #### `enabled`
 
 ``` ini
+[interop]
+
 --8<-- "wsl.conf/wsl.conf:190:197"
 ```
 
 #### `appendWindowsPath`
 
 ``` ini
+[interop]
+
 --8<-- "wsl.conf/wsl.conf:199:206"
 ```
 
@@ -172,6 +206,8 @@ The settings described below are located in the `[user]` section.
 #### `default`
 
 ``` ini
+[user]
+
 --8<-- "wsl.conf/wsl.conf:210:214"
 ```
 
