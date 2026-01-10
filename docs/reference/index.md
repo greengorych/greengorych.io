@@ -41,15 +41,10 @@ WSL, distribution, and instance configurations contain numerous settings that al
 ### Scripts
   - [OOBE script][oobe-script] – a reference of the Out-of-Box Experience (OOBE) script and its purpose.
 
-### Addons
-
-- [Additional WSL distributions list][distributions-list] - an unofficial, ready-to-use manifest of additional WSL distributions not included in the official list.
-
 [conventions]: conventions.md
 [.wslconfig]: wslconfig.md
 [wsl.conf]: wsl-conf.md
 [wsl-distribution.conf]: wsl-distribution-conf.md
 [paths]: paths.md
 [registry]: registry.md
-[distributions-list]: distributions-list.md
 [oobe-script]: oobe-script.md
