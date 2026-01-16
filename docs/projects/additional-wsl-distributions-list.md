@@ -7,8 +7,6 @@ description: Reference an unofficial ready-to-use WSL distribution list with ver
 
 An unofficial, ready-to-use manifest of additional WSL distributions not included in the official list, and instructions for enabling and configuring it.
 
-<!-- more -->
-
 ## Distributions list
 
 ---
@@ -23,7 +21,6 @@ The unofficial, ready-to-use list of additional WSL distributions consists of:
 | NixOS                    | NixOS-25.05       | NixOS 25.05                | amd64        | true    |
 | Rocky                    | Rocky-Linux-9.7   | Rocky Linux 9.7            | amd64, arm64 | false   |
 | Rocky                    | Rocky-Linux-10.1  | Rocky Linux 10.1           | amd64, arm64 | true    |
-| Ubuntu                   | Ubuntu-25.04      | Ubuntu 25.04               | amd64, arm64 | false   |
 | Ubuntu                   | Ubuntu-25.10      | Ubuntu 25.10               | amd64, arm64 | false   |
 | Ubuntu                   | Ubuntu-26.04      | Ubuntu-26.04 Snapshot 2    | amd64, arm64 | false   |
 
@@ -81,9 +78,7 @@ wsl --install <Distribution Family Name>
 
 ### Local registeration
 
-The manifest can be downloaded from the following link: [distributions.json][distributions.json].
-
-[distributions.json]: https://raw.githubusercontent.com/greengorych/wsl-configs/main/distributions/distributions.json
+The manifest can be downloaded from the following link: [distributions.json][distributions].
 
 Then connect it locally using the commands below (run as Administrator):
 
@@ -174,3 +169,5 @@ To disable the list, use the following commands (run as administrator):
     /v "DistributionListUrlAppend" ^
     /f
     ```
+
+[distributions]: https://raw.githubusercontent.com/greengorych/wsl-configs/main/distributions/distributions.json
