@@ -15,14 +15,14 @@ The unofficial, ready-to-use list of additional WSL distributions consists of:
 
 | Distribution Family Name | Distribution Name | Distribution Friendly Name | Architecture | Default |
 | ------------------------ | ------------------| -------------------------- | ------------ | ------- |
-| Alpine                   | Alpine-3.23.2     | Alpine 3.23.2              | amd64, arm64 | true    |
+| Alpine                   | Alpine-3.23.3     | Alpine 3.23.3              | amd64, arm64 | true    |
 | CentOS                   | CentOS-Stream-9   | CentOS Stream 9            | amd64, arm64 | false   |
 | CentOS                   | CentOS-Stream-10  | CentOS Stream 10           | amd64, arm64 | true    |
 | NixOS                    | NixOS-25.05       | NixOS 25.05                | amd64        | true    |
 | Rocky                    | Rocky-Linux-9.7   | Rocky Linux 9.7            | amd64, arm64 | false   |
 | Rocky                    | Rocky-Linux-10.1  | Rocky Linux 10.1           | amd64, arm64 | true    |
 | Ubuntu                   | Ubuntu-25.10      | Ubuntu 25.10               | amd64, arm64 | false   |
-| Ubuntu                   | Ubuntu-26.04      | Ubuntu-26.04 Snapshot 2    | amd64, arm64 | false   |
+| Ubuntu                   | Ubuntu-26.04      | Ubuntu-26.04 Snapshot 3    | amd64, arm64 | false   |
 
 
 ## Description
@@ -139,7 +139,7 @@ Additional distributions not included in the official manifest should now appear
 
 ``` { .text .no-copy .no-select }
 NAME                FRIENDLY NAME
-Alpine-3.23.3       Alpine 3.23.3
+Alpine-3.23.3-1     Alpine 3.23.3-1
 CentOS-Stream-9     CentOS Stream 9
 CentOS-Stream-10    CentOS Stream 10
 NixOS-25.05         NixOS 25.05
