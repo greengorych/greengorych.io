@@ -139,15 +139,14 @@ Additional distributions not included in the official manifest should now appear
 
 ``` { .text .no-copy .no-select }
 NAME                FRIENDLY NAME
-Alpine-3.23.2       Alpine 3.23.2
+Alpine-3.23.3       Alpine 3.23.3
 CentOS-Stream-9     CentOS Stream 9
 CentOS-Stream-10    CentOS Stream 10
 NixOS-25.05         NixOS 25.05
 RockyLinux-9.7      Rocky Linux 9.7
 RockyLinux-10.1     Rocky Linux 10.1
-Ubuntu-25.04        Ubuntu 25.04
 Ubuntu-25.10        Ubuntu 25.10
-Ubuntu-26.04        Ubuntu 26.04 Snapshot 1
+Ubuntu-26.04        Ubuntu 26.04 Snapshot 3
 ```
 
 ### Unregistering
