@@ -39,7 +39,7 @@ Download the distribution for your architecture and install it by double-clickin
 Download the image for your architecture and install it with:
 
 ``` { .powershell .no-select }
-wsl --install --from-file C:\Users\<UserName>\Download\alpine-3.23.2-4-x86_64.wsl
+wsl --install --from-file C:\Users\<UserName>\Download\alpine-3.23.3-1-x86_64.wsl
 ```
 
 ### Using an additional WSL distributions list
