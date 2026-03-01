@@ -18,7 +18,7 @@ The unofficial, ready-to-use list of additional WSL distributions consists of:
 | Alpine                   | Alpine-3.23.3     | Alpine 3.23.3              | amd64, arm64 | true    |
 | CentOS                   | CentOS-Stream-9   | CentOS Stream 9            | amd64, arm64 | false   |
 | CentOS                   | CentOS-Stream-10  | CentOS Stream 10           | amd64, arm64 | true    |
-| NixOS                    | NixOS-25.05       | NixOS 25.05                | amd64        | true    |
+| NixOS                    | NixOS-25.11       | NixOS 25.11                | amd64        | true    |
 | Rocky                    | Rocky-Linux-9.7   | Rocky Linux 9.7            | amd64, arm64 | false   |
 | Rocky                    | Rocky-Linux-10.1  | Rocky Linux 10.1           | amd64, arm64 | true    |
 | Ubuntu                   | Ubuntu-25.10      | Ubuntu 25.10               | amd64, arm64 | false   |
@@ -142,7 +142,7 @@ NAME                FRIENDLY NAME
 Alpine-3.23.3-1     Alpine 3.23.3-1
 CentOS-Stream-9     CentOS Stream 9
 CentOS-Stream-10    CentOS Stream 10
-NixOS-25.05         NixOS 25.05
+NixOS-25.11         NixOS 25.11
 RockyLinux-9.7      Rocky Linux 9.7
 RockyLinux-10.1     Rocky Linux 10.1
 Ubuntu-25.10        Ubuntu 25.10
