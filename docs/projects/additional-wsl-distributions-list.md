@@ -22,7 +22,7 @@ The unofficial, ready-to-use list of additional WSL distributions consists of:
 | Rocky                    | Rocky-Linux-9.7   | Rocky Linux 9.7            | amd64, arm64 | false   |
 | Rocky                    | Rocky-Linux-10.1  | Rocky Linux 10.1           | amd64, arm64 | true    |
 | Ubuntu                   | Ubuntu-25.10      | Ubuntu 25.10               | amd64, arm64 | false   |
-| Ubuntu                   | Ubuntu-26.04      | Ubuntu-26.04 Snapshot 3    | amd64, arm64 | false   |
+| Ubuntu                   | Ubuntu-26.04      | Ubuntu-26.04 Snapshot 4    | amd64, arm64 | false   |
 
 
 ## Description
@@ -146,7 +146,7 @@ NixOS-25.05         NixOS 25.05
 RockyLinux-9.7      Rocky Linux 9.7
 RockyLinux-10.1     Rocky Linux 10.1
 Ubuntu-25.10        Ubuntu 25.10
-Ubuntu-26.04        Ubuntu 26.04 Snapshot 3
+Ubuntu-26.04        Ubuntu 26.04 Snapshot 4
 ```
 
 ### Unregistering
