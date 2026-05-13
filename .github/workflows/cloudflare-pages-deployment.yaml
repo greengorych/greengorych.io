@@ -51,7 +51,7 @@ jobs:
           echo "${{ secrets.INDEXNOW_API_KEY }}" > ${{ vars.SITE_DIR }}/${{ secrets.INDEXNOW_API_KEY }}.txt
 
       - name: Deploy site to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           wranglerVersion: "latest"
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
