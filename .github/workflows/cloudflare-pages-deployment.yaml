@@ -22,10 +22,10 @@ jobs:
 
     steps:
       - name: Checkout site sources
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Checkout WSL configurations
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: greengorych/wsl-configs
           path: wsl-configs
